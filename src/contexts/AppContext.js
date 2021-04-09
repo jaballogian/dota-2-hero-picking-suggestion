@@ -34,7 +34,7 @@ function AppContextProvider(props){
             return response.json()
         })
         .then(responseJson => {
-            const formattedResponseJson = responseJson.result.data.heroes.map((item, index) => {
+            const formattedResponseJson = responseJson.result.data.heroes.map((item) => {
                 let newItem = {}
                 newItem.id = item.id
                 newItem.name = item.name
@@ -63,7 +63,7 @@ function AppContextProvider(props){
     }, [heroList])
 
     // console.log('AppContext - hero list', heroList)
-    console.log('AppContext - hero detail list', heroDetailList)
+    // console.log('AppContext - hero detail list', heroDetailList)
 
     // RETURNING VIEW
     return(
