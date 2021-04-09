@@ -12,7 +12,7 @@ function sortByProperty(property){
     }  
 }
 
-const sortedHeroDetailList = heroDetailList.sort(sortByProperty('id'))
+const sortedHeroDetailList = heroDetailList.sort(sortByProperty('name_loc'))
 
 // console.log('sortedHeroDetailList', sortedHeroDetailList)
 
