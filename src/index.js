@@ -8,7 +8,8 @@ import {AppContextProvider} from './contexts/AppContext'
 ReactDOM.render(
   <AppContextProvider>
     <App />
-  </AppContextProvider>,
+  </AppContextProvider>
+  ,
   document.getElementById('root')
 );
 

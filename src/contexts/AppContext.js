@@ -34,7 +34,18 @@ function AppContextProvider(props){
             return response.json()
         })
         .then(responseJson => {
-            setHeroDetailList(previousValue => [...previousValue, responseJson.result.data.heroes[0]])
+            const formattedResponseJson = responseJson.result.data.heroes.map((item, index) => {
+                let newItem = {}
+                newItem.id = item.id
+                newItem.name = item.name
+                newItem.order_id = item.order_id
+                newItem.name_loc = item.name_loc
+                newItem.primary_attr = item.primary_attr
+                newItem.attack_capability = item.attack_capability
+                newItem.role_levels = item.role_levels
+                return newItem
+            })
+            setHeroDetailList(previousValue => [...previousValue, formattedResponseJson[0]])
         })
     }
 
@@ -52,7 +63,7 @@ function AppContextProvider(props){
     }, [heroList])
 
     // console.log('AppContext - hero list', heroList)
-    // console.log('AppContext - hero detail list', heroDetailList)
+    console.log('AppContext - hero detail list', heroDetailList)
 
     // RETURNING VIEW
     return(
