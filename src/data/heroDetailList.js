@@ -2283,4 +2283,4 @@ const heroDetailList = [
     }
 ]
 
-export {heroDetailList}
+export default heroDetailList
