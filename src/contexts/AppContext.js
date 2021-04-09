@@ -8,8 +8,10 @@ const AppContext = React.createContext()
 function AppContextProvider(props){
     // DEFINING CONSTANT VARIABLES
     const [heroList, setHeroList] = useState([])
+    const [detailHeroList, setDetailHeroList] = useState([])
 
     const HEROLISTAPIURL = apiList.getHeroListURL
+    const DETAILHEROAPIURL = apiList.getDetailHeroURL
 
     // DEFINING CONSTANT FUNCTIONS
     const fetchHeroListAPI = () => {
@@ -24,12 +26,26 @@ function AppContextProvider(props){
         })
     }
 
+    const fetchDetailHeroByIdAPIURL = (inputId) => {
+        fetch(`${DETAILHEROAPIURL}${inputId}`, {
+            method: 'GET'
+        })
+        .then(response => {
+            return response.json()
+        })
+        .then(responseJson => {
+            setDetailHeroList(responseJson.result.data.heroes[0])
+        })
+    }
+
     // CALLING CONSTANT FUNCTIONS
     useEffect(() => {
         fetchHeroListAPI()
+        fetchDetailHeroByIdAPIURL(1)
     }, [])
 
     // console.log('AppContext - hero list', heroList)
+    console.log('AppContext - detail detail list', detailHeroList)
 
     // RETURNING VIEW
     return(
