@@ -34,18 +34,25 @@ function AppContextProvider(props){
             return response.json()
         })
         .then(responseJson => {
-            setDetailHeroList(responseJson.result.data.heroes[0])
+            setDetailHeroList(previousValue => [...previousValue, responseJson.result.data.heroes[0]])
         })
     }
 
     // CALLING CONSTANT FUNCTIONS
     useEffect(() => {
         fetchHeroListAPI()
-        fetchDetailHeroByIdAPIURL(1)
     }, [])
 
+    useEffect(() => {
+        if(heroList.length !== 0){
+            for(let i = 0; i < heroList.length; i++){
+                fetchDetailHeroByIdAPIURL(heroList[i].id)
+            }
+        }
+    }, [heroList])
+
     // console.log('AppContext - hero list', heroList)
-    console.log('AppContext - detail detail list', detailHeroList)
+    // console.log('AppContext - detail hero list', detailHeroList)
 
     // RETURNING VIEW
     return(
