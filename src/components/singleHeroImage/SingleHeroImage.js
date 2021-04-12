@@ -13,20 +13,18 @@ function SingleHeroImage(){
 
     const addHeroToOpponentsTeam =
         isHovered &&
-        <AddCircleOutlineRoundedIcon style={{color: 'crimson', height: 40, width: 40, position: 'absolute', top: 5, left: 5, cursor: 'pointer'}}/>
+        <AddCircleOutlineRoundedIcon style={{color: 'crimson', height: 30, width: 30, position: 'absolute', top: 5, left: 5, cursor: 'pointer'}}/>
 
     const addHeroToYourTeam =
         isHovered &&
-        <AddCircleOutlineRoundedIcon style={{color: 'forestgreen', height: 40, width: 40, position: 'absolute', top: 5, right: 5, cursor: 'pointer'}}/>
+        <AddCircleOutlineRoundedIcon style={{color: 'forestgreen', height: 30, width: 30, position: 'absolute', top: 5, right: 5, cursor: 'pointer'}}/>
     
-    const yourTeamBansThisHero =
+    const bansThisHero =
         isHovered &&
-        <BlockRoundedIcon style={{color: 'forestgreen', height: 40, width: 40, position: 'absolute', bottom: 5, right: 5, cursor: 'pointer'}}/>
+        <div style={{width: '100%', height: 30, position: 'absolute', left: 0, bottom:5, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            <BlockRoundedIcon style={{color: 'grey', height: 30, width: 30, cursor: 'pointer'}}/>
+        </div>
     
-    const yourOpponentsTeamBansThisHero =
-        isHovered &&
-        <BlockRoundedIcon style={{color: 'crimson', height: 40, width: 40, position: 'absolute', bottom: 5, left: 5, cursor: 'pointer'}}/>
-
     // RETURNING VIEW
     return(
         <div 
@@ -38,8 +36,7 @@ function SingleHeroImage(){
             
             {addHeroToOpponentsTeam}
             {addHeroToYourTeam}
-            {yourTeamBansThisHero}
-            {yourOpponentsTeamBansThisHero}
+            {bansThisHero}
         </div>
     )
 }
