@@ -30,10 +30,36 @@ function SingleHeroImage(){
                 padding: '5px 5px 0px 5px', 
                 boxSizing: 'border-box'
                 }}
-            >
-            <AddCircleOutlineRoundedIcon style={{color: 'crimson', height: 30, width: 30, cursor: 'pointer'}}/>
-            <BlockRoundedIcon style={{color: 'grey', height: 30, width: 30, cursor: 'pointer'}}/>
-            <AddCircleOutlineRoundedIcon style={{color: 'forestgreen', height: 30, width: 30, cursor: 'pointer'}}/>
+        >
+            {/* ADD HERO TO OPPONENT'S TEAM */}
+            <AddCircleOutlineRoundedIcon 
+                style={{
+                    color: 'crimson', 
+                    height: 30, 
+                    width: 30, 
+                    cursor: 'pointer'
+                }}
+            />
+
+            {/* BAN THIS HERO */}
+            <BlockRoundedIcon 
+                style={{
+                    color: 'grey', 
+                    height: 30, 
+                    width: 30, 
+                    cursor: 'pointer'
+                }}
+            />
+
+            {/* ADD HERO TO MY TEAM */}
+            <AddCircleOutlineRoundedIcon 
+                style={{
+                    color: 'forestgreen', 
+                    height: 30, 
+                    width: 30, 
+                    cursor: 'pointer'
+                }}
+            />
         </div>
 
     const heroFullname = 
@@ -51,7 +77,15 @@ function SingleHeroImage(){
                 boxSizing: 'border-box'
             }}
             >
-            <img src={heroAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
+            <img 
+                src={heroAttribute} 
+                alt='' 
+                style={{
+                    height: 30, 
+                    width: 30, 
+                    marginRight: 10
+                }}
+            />
             <Typography 
                 variant="h6" 
                 style={{
@@ -65,12 +99,23 @@ function SingleHeroImage(){
     // RETURNING VIEW
     return(
         <div 
-            style={{position: 'absolute', width: 256, height: 144}} 
+            style={{
+                position: 'absolute', 
+                width: 256, 
+                height: 144
+            }} 
             onMouseEnter={() => setIsHovered(true)} 
             onMouseLeave={() => setIsHovered(false)}
         >
-            <img src={heroCoverImageList[0].default} alt='' style={{position: 'absolute', width: '100%', height: '100%'}}/>
-            
+            <img 
+                src={heroCoverImageList[0].default} 
+                alt='' 
+                style={{
+                    position: 'absolute', 
+                    width: '100%', 
+                    height: '100%'
+                }}
+            />
             {actionOptions}
             {heroFullname}
         </div>
