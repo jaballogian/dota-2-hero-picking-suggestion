@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import {AppContextProvider} from './contexts/AppContext'
 import {HeroListContextProvider} from './contexts/HeroListContext'
+import {TeamInformationContextProdiver} from './contexts/TeamInformationContext'
 
 ReactDOM.render(
   // <AppContextProvider>
   <HeroListContextProvider>
-    <App />
+    <TeamInformationContextProdiver>
+      <App />
+    </TeamInformationContextProdiver>
   </HeroListContextProvider>
   // </AppContextProvider>
   ,
