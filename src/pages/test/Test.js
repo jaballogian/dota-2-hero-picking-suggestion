@@ -1,12 +1,11 @@
 import React from 'react'
 
-import heroCoverImageList from '../../data/heroes/heroCoverImageList'
+// CUSTOM COMPONENTS
+import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
 
 function Test() {
-    console.log('heroCoverImageList', heroCoverImageList)
-    
     return(
-        <div></div>
+        <SingleHeroImage/>
     )
 }
 
