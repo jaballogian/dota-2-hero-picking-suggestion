@@ -11,18 +11,25 @@ function SingleHeroImage(){
     // DEFINING CONSTANT VARIABLES
     const [isHovered, setIsHovered] = useState(false)
 
-    const addHeroToOpponentsTeam =
+    const actionOptions =
         isHovered &&
-        <AddCircleOutlineRoundedIcon style={{color: 'crimson', height: 30, width: 30, position: 'absolute', top: 5, left: 5, cursor: 'pointer'}}/>
-
-    const addHeroToYourTeam =
-        isHovered &&
-        <AddCircleOutlineRoundedIcon style={{color: 'forestgreen', height: 30, width: 30, position: 'absolute', top: 5, right: 5, cursor: 'pointer'}}/>
-    
-    const bansThisHero =
-        isHovered &&
-        <div style={{width: '100%', height: 30, position: 'absolute', left: 0, bottom:5, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <div 
+            style={{
+                width: '100%', 
+                height: 30, 
+                position: 'absolute', 
+                left: 0, 
+                top:0, 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'space-between', 
+                padding: '5px 5px 0px 5px', 
+                boxSizing: 'border-box'
+                }}
+            >
+            <AddCircleOutlineRoundedIcon style={{color: 'crimson', height: 30, width: 30, cursor: 'pointer'}}/>
             <BlockRoundedIcon style={{color: 'grey', height: 30, width: 30, cursor: 'pointer'}}/>
+            <AddCircleOutlineRoundedIcon style={{color: 'forestgreen', height: 30, width: 30, cursor: 'pointer'}}/>
         </div>
     
     // RETURNING VIEW
@@ -34,9 +41,7 @@ function SingleHeroImage(){
         >
             <img src={heroCoverImageList[0].default} alt='' style={{position: 'absolute', width: '100%', height: '100%'}}/>
             
-            {addHeroToOpponentsTeam}
-            {addHeroToYourTeam}
-            {bansThisHero}
+            {actionOptions}
         </div>
     )
 }
