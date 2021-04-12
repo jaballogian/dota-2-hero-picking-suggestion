@@ -3,9 +3,9 @@ import React, {useState, useEffect} from 'react'
 // DATA AND UTILS
 import apiList from '../data/apiList'
 
-const AppContext = React.createContext()
+const FetchHeroListContext = React.createContext()
 
-function AppContextProvider(props){
+function FetchHeroListContextProvider(props){
     // DEFINING CONSTANT VARIABLES
     const [heroList, setHeroList] = useState([])
     const [heroDetailList, setHeroDetailList] = useState([])
@@ -62,15 +62,15 @@ function AppContextProvider(props){
         }
     }, [heroList])
 
-    // console.log('AppContext - hero list', heroList)
-    // console.log('AppContext - hero detail list', heroDetailList)
+    // console.log('FetchHeroListContext - hero list', heroList)
+    // console.log('FetchHeroListContext - hero detail list', heroDetailList)
 
     // RETURNING VIEW
     return(
-        <AppContext.Provider value={{heroList}}>
+        <FetchHeroListContext.Provider value={{heroList}}>
             {props.children}
-        </AppContext.Provider>
+        </FetchHeroListContext.Provider>
     )
 }
 
-export {AppContextProvider, AppContext}
+export {FetchHeroListContextProvider, FetchHeroListContext}
