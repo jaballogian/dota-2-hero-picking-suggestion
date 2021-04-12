@@ -19,20 +19,26 @@ function HeroListContextProvider(props){
 
     const addToMyHeroList = (inputHeroData) => {
         // console.log('addToMyHeroList', inputHeroData)
-        setMyHeroList(previousValue => [...previousValue, inputHeroData])
-        removeHeroFromHeroPoolList(inputHeroData)
+        if(myHeroList.length < 5){
+            setMyHeroList(previousValue => [...previousValue, inputHeroData])
+            removeHeroFromHeroPoolList(inputHeroData)
+        }
     }
 
     const addToOpponentsHeroList = (inputHeroData) => {
         // console.log('addToOpponentsHeroList', inputHeroData)
-        setOpponentsHeroList(previousValue => [...previousValue, inputHeroData])
-        removeHeroFromHeroPoolList(inputHeroData)
+        if(opponentsHeroList.length < 5){
+            setOpponentsHeroList(previousValue => [...previousValue, inputHeroData])
+            removeHeroFromHeroPoolList(inputHeroData)
+        }
     }
 
     const addToBannedHeroList = (inputHeroData) => {
         // console.log('addToBannedHeroList', inputHeroData)
-        setBannedHeroList(previousValue => [...previousValue, inputHeroData])
-        removeHeroFromHeroPoolList(inputHeroData)
+        if(bannedHeroList.length < 14){
+            setBannedHeroList(previousValue => [...previousValue, inputHeroData])
+            removeHeroFromHeroPoolList(inputHeroData)
+        }
     }
 
     // CALLING CONSTANT FUNCTIONS

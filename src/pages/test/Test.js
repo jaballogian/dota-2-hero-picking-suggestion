@@ -8,8 +8,7 @@ function Test() {
     // DEFINING CONSTANT VARIABLES
     const {heroPoolList} = useContext(HeroListContext)
 
-    console.log('heroPoolList', heroPoolList)
-    // console.log('heroCoverImageList', heroCoverImageList)
+    // console.log('heroPoolList', heroPoolList)
 
     const heroListView = heroPoolList.map((item, index) => (
         <SingleHeroImage 
