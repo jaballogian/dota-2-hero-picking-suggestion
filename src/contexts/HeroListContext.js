@@ -43,17 +43,20 @@ function HeroListContextProvider(props){
 
     // CALLING CONSTANT FUNCTIONS
     // console.log('heroPoolList', heroPoolList)
-    console.log('myHeroList', myHeroList)
-    console.log('opponentsHeroList', opponentsHeroList)
-    console.log('bannedHeroList', bannedHeroList)
+    // console.log('myHeroList', myHeroList)
+    // console.log('opponentsHeroList', opponentsHeroList)
+    // console.log('bannedHeroList', bannedHeroList)
 
     // RETURNING VIEW
     return(
         <HeroListContext.Provider 
             value={{
                 heroPoolList,
+                myHeroList,
                 addToMyHeroList,
+                opponentsHeroList,
                 addToOpponentsHeroList,
+                bannedHeroList,
                 addToBannedHeroList
             }}
         >
