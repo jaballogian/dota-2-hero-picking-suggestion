@@ -960,6 +960,14 @@ const heroList = [
         "name_english_loc": "Hoodwink",
         "primary_attr": 1,
         "complexity": 2
+    },
+    {
+      "id": 135,
+      "name": "npc_dota_hero_dawnbreaker",
+      "name_loc": "Dawnbreaker",
+      "name_english_loc": "Dawnbreaker",
+      "primary_attr": 0,
+      "complexity": 1
     }
 ]
 

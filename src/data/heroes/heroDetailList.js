@@ -2280,6 +2280,25 @@ const heroDetailList = [
             0,
             0
         ]
+    },
+    {
+        "id": 135,
+        "name": "npc_dota_hero_dawnbreaker",
+        "order_id": 121,
+        "name_loc": "Dawnbreaker",
+        "primary_attr": 0,
+        "attack_capability": 1,
+        "role_levels": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+        ]
     }
 ]
 
