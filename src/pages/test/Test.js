@@ -3,6 +3,7 @@ import React, {useContext} from 'react'
 // CUSTOM COMPONENTS AND DATA
 import { HeroListContext } from '../../contexts/HeroListContext'
 import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
+import summarizeTeamInformation from '../../contexts/summarizeTeamInformation'
 
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
@@ -52,6 +53,9 @@ function Test() {
             heroData={item}
         />
     ))
+
+    console.log('my team information', summarizeTeamInformation(myHeroList))
+    console.log("opponent's team information", summarizeTeamInformation(opponentsHeroList))
 
     // RETURNING VIEW
     return(
