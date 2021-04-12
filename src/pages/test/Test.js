@@ -13,7 +13,13 @@ function Test() {
     // console.log('heroCoverImageList', heroCoverImageList)
 
     const heroListView = heroPoolList.map((item, index) => (
-        <SingleHeroImage key={index} fullname={item.name_loc} image={heroCoverImageList[index].default} attribute={item.primary_attr}/>
+        <SingleHeroImage 
+            key={index} 
+            fullname={item.name_loc} 
+            image={heroCoverImageList[index].default} 
+            attribute={item.primary_attr}
+            heroData={item}
+        />
     ))
 
     // RETURNING VIEW

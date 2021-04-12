@@ -45,7 +45,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToOpponentsHeroList()}
+                onClick={() => addToOpponentsHeroList(props.heroData)}
             />
 
             {/* BAN THIS HERO */}
@@ -56,7 +56,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToBannedHeroList()}
+                onClick={() => addToBannedHeroList(props.heroData)}
             />
 
             {/* ADD HERO TO MY TEAM */}
@@ -67,7 +67,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToMyHeroList()}
+                onClick={() => addToMyHeroList(props.heroData)}
             />
         </div>
 

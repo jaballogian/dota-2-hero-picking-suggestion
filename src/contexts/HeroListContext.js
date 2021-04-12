@@ -12,16 +12,16 @@ function HeroListContextProvider(props){
     const [bannedHeroList, setBannedHeroList] = useState([])                // MAXIMUM LENGTH IS 14
 
     // DEFINING CONSTANT FUNCTIONS
-    const addToMyHeroList = () => {
-        console.log('addToMyHeroList')
+    const addToMyHeroList = (inputHeroData) => {
+        console.log('addToMyHeroList', inputHeroData)
     }
 
-    const addToOpponentsHeroList = () => {
-        console.log('addToOpponentsHeroList')
+    const addToOpponentsHeroList = (inputHeroData) => {
+        console.log('addToOpponentsHeroList', inputHeroData)
     }
 
-    const addToBannedHeroList = () => {
-        console.log('addToBannedHeroList')
+    const addToBannedHeroList = (inputHeroData) => {
+        console.log('addToBannedHeroList', inputHeroData)
     }
 
     // CALLING CONSTANT FUNCTIONS
