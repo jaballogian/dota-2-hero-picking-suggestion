@@ -1,4 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
+
+// CUSTOM COMPONENTS AND DATA
+import {HeroListContext} from '../../contexts/HeroListContext'
 
 // IMAGES
 import strengthAttribute from '../../images/attributes/hero_strength.png'
@@ -15,6 +18,8 @@ import Typography from '@material-ui/core/Typography';
 function SingleHeroImage(props){
     // DEFINING CONSTANT VARIABLES
     const [isHovered, setIsHovered] = useState(false)
+
+    const {addToMyHeroList, addToOpponentsHeroList, addToBannedHeroList} = useContext(HeroListContext)
 
     const actionOptions =
         isHovered &&
@@ -40,6 +45,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
+                onClick={() => addToOpponentsHeroList()}
             />
 
             {/* BAN THIS HERO */}
@@ -50,6 +56,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
+                onClick={() => addToBannedHeroList()}
             />
 
             {/* ADD HERO TO MY TEAM */}
@@ -60,6 +67,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
+                onClick={() => addToMyHeroList()}
             />
         </div>
 
