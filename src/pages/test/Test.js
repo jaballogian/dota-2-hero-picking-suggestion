@@ -3,7 +3,6 @@ import React, {useContext} from 'react'
 // CUSTOM COMPONENTS AND DATA
 import { HeroListContext } from '../../contexts/HeroListContext'
 import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
-import heroCoverImageList from '../../data/heroes/heroCoverImageList'
 
 function Test() {
     // DEFINING CONSTANT VARIABLES
@@ -16,7 +15,7 @@ function Test() {
         <SingleHeroImage 
             key={index} 
             fullname={item.name_loc} 
-            image={heroCoverImageList[index].default} 
+            image={heroPoolList[index].image} 
             attribute={item.primary_attr}
             heroData={item}
         />

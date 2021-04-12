@@ -7,6 +7,6 @@ const sortedHeroDetailWithImageList = sortedHeroDetailList.map((item, index) => 
     return {...item}
 })
 
-console.log('sortedHeroDetailWithImageList', sortedHeroDetailWithImageList)
+// console.log('sortedHeroDetailWithImageList', sortedHeroDetailWithImageList)
 
 export default sortedHeroDetailWithImageList
