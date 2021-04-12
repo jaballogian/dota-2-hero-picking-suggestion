@@ -1,9 +1,11 @@
 import React from 'react'
 
+// PAGES
+import Test from './pages/test/Test'
+
 function App() {
   return (
-    <div >
-    </div>
+    <Test/>
   );
 }
 
