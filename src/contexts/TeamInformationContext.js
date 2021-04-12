@@ -12,6 +12,10 @@ function TeamInformationContextProdiver(props){
     const summarizeTeamInformation = (inputHeroListTeam) => {
         let meleeCount = 0
         let rangeCount = 0
+        let strengthCount = 0
+        let agilityCount = 0
+        let intelligenceCount = 0
+
         for(let i = 0; i < inputHeroListTeam.length; i++){
             const item = inputHeroListTeam[i]
 
@@ -22,8 +26,19 @@ function TeamInformationContextProdiver(props){
             else if(item['attack_capability'] === 2){
                 rangeCount++
             }
+
+            // COUNT FOR HERO ATTRIBUTES
+            if(item['primary_attr'] === 0){
+                strengthCount++
+            }
+            else if(item['primary_attr'] === 1){
+                agilityCount++
+            }
+            else if(item['primary_attr'] === 2){
+                intelligenceCount++
+            }
         }
-        return {meleeCount, rangeCount}
+        return {meleeCount, rangeCount, strengthCount, agilityCount, intelligenceCount}
     }
 
     // CALLING CONSTANT VARIABLES
