@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 
 // IMAGES
-import heroCoverImageList from '../../data/heroes/heroCoverImageList'
-import heroAttribute from '../../images/attributes/hero_agility.png'
+import strengthAttribute from '../../images/attributes/hero_strength.png'
+import agilityAttribute from '../../images/attributes/hero_agility.png'
+import intelligenceAttribute from '../../images/attributes/hero_intelligence.png'
 
 // ICONS
 import AddCircleOutlineRoundedIcon from '@material-ui/icons/AddCircleOutlineRounded'
@@ -11,7 +12,7 @@ import BlockRoundedIcon from '@material-ui/icons/BlockRounded'
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
 
-function SingleHeroImage(){
+function SingleHeroImage(props){
     // DEFINING CONSTANT VARIABLES
     const [isHovered, setIsHovered] = useState(false)
 
@@ -44,7 +45,7 @@ function SingleHeroImage(){
             {/* BAN THIS HERO */}
             <BlockRoundedIcon 
                 style={{
-                    color: 'grey', 
+                    color: 'white', 
                     height: 30, 
                     width: 30, 
                     cursor: 'pointer'
@@ -62,6 +63,18 @@ function SingleHeroImage(){
             />
         </div>
 
+    const heroPrimaryAttribute = () => {
+        if(props.attribute === 0){
+            return strengthAttribute
+        }
+        else if(props.attribute === 1){
+            return agilityAttribute
+        } 
+        else if(props.attribute === 2) {
+            return intelligenceAttribute
+        }
+    }
+
     const heroFullname = 
         isHovered &&
         <div 
@@ -78,7 +91,7 @@ function SingleHeroImage(){
             }}
             >
             <img 
-                src={heroAttribute} 
+                src={heroPrimaryAttribute()} 
                 alt='' 
                 style={{
                     height: 30, 
@@ -92,7 +105,7 @@ function SingleHeroImage(){
                     color: 'white'
                 }}
             >
-                HERO FULLNAME
+                {props.fullname}
             </Typography>
         </div>
     
@@ -100,7 +113,7 @@ function SingleHeroImage(){
     return(
         <div 
             style={{
-                position: 'absolute', 
+                position: 'relative', 
                 width: 256, 
                 height: 144
             }} 
@@ -108,7 +121,7 @@ function SingleHeroImage(){
             onMouseLeave={() => setIsHovered(false)}
         >
             <img 
-                src={heroCoverImageList[0].default} 
+                src={props.image}
                 alt='' 
                 style={{
                     position: 'absolute', 
