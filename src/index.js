@@ -4,10 +4,13 @@ import './index.css'  ;
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import {AppContextProvider} from './contexts/AppContext'
+import {HeroListContextProvider} from './contexts/HeroListContext'
 
 ReactDOM.render(
   // <AppContextProvider>
+  <HeroListContextProvider>
     <App />
+  </HeroListContextProvider>
   // </AppContextProvider>
   ,
   document.getElementById('root')

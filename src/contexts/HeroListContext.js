@@ -8,7 +8,7 @@ function HeroListContextProvider(props){
     // DEFINING CONSTANT VARIABLES
     const [heroPoolList, setHeroPoolList] = useState(sortedHeroDetailList)
 
-    console.log('heroPoolList', heroPoolList)
+    // console.log('heroPoolList', heroPoolList)
 
     // RETURNING VIEW
     return(
