@@ -53,34 +53,52 @@ function TeamInformationContextProdiver(props){
             if(item['role_levels'][0] > 0){
                 carryCount++
             }
-            else if(item['role_levels'][1] > 0){
+            if(item['role_levels'][1] > 0){
                 supportCount++
             }
-            else if(item['role_levels'][2] > 0){
+            if(item['role_levels'][2] > 0){
                 nukerCount++
             }
-            else if(item['role_levels'][3] > 0){
+            if(item['role_levels'][3] > 0){
                 disablerCount++
             }
-            else if(item['role_levels'][4] > 0){
+            if(item['role_levels'][4] > 0){
                 junglerCount++
             }
-            else if(item['role_levels'][5] > 0){
+            if(item['role_levels'][5] > 0){
                 durableCount++
             }
-            else if(item['role_levels'][6] > 0){
+            if(item['role_levels'][6] > 0){
                 escapeCount++
             }
-            else if(item['role_levels'][7] > 0){
-                pusherCount++
+            if(item['role_levels'][7] > 0){
+               pusherCount++
             }
-            else if(item['role_levels'][8] > 0){
+            if(item['role_levels'][8] > 0){
                 initiatorCount++
             }
         }
-        return {meleeCount, rangeCount,
-            strengthCount, agilityCount, intelligenceCount,
-            carryCount, supportCount, nukerCount, disablerCount, junglerCount, durableCount, escapeCount, pusherCount, initiatorCount
+        return {
+            attack_type: {
+                meleeCount, 
+                rangeCount
+            },
+            attribute_type: {
+                strengthCount, 
+                agilityCount, 
+                intelligenceCount
+            },
+            role_levels: {
+                carryCount, 
+                supportCount, 
+                nukerCount, 
+                disablerCount, 
+                junglerCount, 
+                durableCount, 
+                escapeCount, 
+                pusherCount, 
+                initiatorCount
+            }
         }
     }
 
