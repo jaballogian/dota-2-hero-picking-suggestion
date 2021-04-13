@@ -31,6 +31,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='action'
+            listType='heroPoolList'
         />
     ))
 
@@ -42,6 +43,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
+            listType='myHeroList'
         />
     ))
 
@@ -53,6 +55,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
+            listType='opponentsHeroList'
         />
     ))
 
@@ -64,6 +67,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
+            listType='bannedHeroList'
         />
     ))
 

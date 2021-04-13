@@ -20,7 +20,14 @@ function SingleHeroImage(props){
     // DEFINING CONSTANT VARIABLES
     const [isHovered, setIsHovered] = useState(false)
 
-    const {addToMyHeroList, addToOpponentsHeroList, addToBannedHeroList} = useContext(HeroListContext)
+    const {
+        addToMyHeroList, 
+        addToOpponentsHeroList, 
+        addToBannedHeroList,
+        removeHeroFromMyHeroList,
+        removeHeroFromOpponentsHeroList,
+        removeHeroFromBannedHeroList
+    } = useContext(HeroListContext)
 
     const actionOptions =
         isHovered &&
@@ -72,9 +79,21 @@ function SingleHeroImage(props){
             />
         </div>
 
+    const deleteHeroFromList = (inputHeroData, inputHeroListType) => {
+        if(inputHeroListType === 'myHeroList'){
+            removeHeroFromMyHeroList(inputHeroData)
+        }
+        else if(inputHeroListType === 'opponentsHeroList'){
+            removeHeroFromOpponentsHeroList(inputHeroData)
+        }
+        else if(inputHeroListType === 'bannedHeroList'){
+            removeHeroFromBannedHeroList(inputHeroData)
+        }
+    }
+
+    // REMOVE HERO FROM LIST
     const deleteOption =
         isHovered &&
-        // REMOVE HERO FROM LIST
         <DeleteOutlinedIcon 
             style={{
                 color: 'white', 
@@ -86,7 +105,7 @@ function SingleHeroImage(props){
                 top:0,
                 padding: '5px 5px 0px 5px'
             }}
-            onClick={() => console.log('remove hero from list is clicked', props.heroData)}
+            onClick={() => deleteHeroFromList(props.heroData, props.listType)}
         />
 
     const heroPrimaryAttribute = () => {
