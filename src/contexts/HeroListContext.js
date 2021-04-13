@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 import sortedHeroDetailWithImageList from '../data/heroes/sortedHeroDetailWithImageList'
+import {sortByProperty} from '../data/heroes/sortedHeroDetailList'
 
 const HeroListContext = React.createContext()
 
@@ -42,7 +43,7 @@ function HeroListContextProvider(props){
     }
 
     const addToHeroPoolList = (inputHeroData) => {
-        setHeroPoolList(previousValue => [...previousValue, inputHeroData])
+        setHeroPoolList(previousValue => [...previousValue, inputHeroData].sort(sortByProperty('name_loc')))
     }
 
     const removeHeroFromMyHeroList = (inputHeroData) => {
