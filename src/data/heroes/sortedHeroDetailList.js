@@ -16,4 +16,4 @@ const sortedHeroDetailList = heroDetailList.sort(sortByProperty('name_loc'))
 
 // console.log('sortedHeroDetailList', sortedHeroDetailList)
 
-export default sortedHeroDetailList
+export {sortedHeroDetailList, sortByProperty}

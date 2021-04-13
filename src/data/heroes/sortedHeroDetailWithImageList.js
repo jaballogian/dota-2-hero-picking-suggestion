@@ -1,5 +1,5 @@
 // DATA
-import sortedHeroDetailList from './sortedHeroDetailList'
+import {sortedHeroDetailList} from './sortedHeroDetailList'
 import heroCoverImageList from './heroCoverImageList'
 
 const sortedHeroDetailWithImageList = sortedHeroDetailList.map((item, index) => {
