@@ -6,16 +6,6 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
     let agilityCount = 0
     let intelligenceCount = 0
 
-    let carryCount = 0
-    let supportCount = 0
-    let nukerCount = 0
-    let disablerCount = 0
-    let junglerCount = 0
-    let durableCount = 0
-    let escapeCount = 0
-    let pusherCount = 0
-    let initiatorCount = 0
-
     // [CARRY, SUPPORT, NUKER, DISABLER, JUNGLER, DURABLE, ESCAPE, PUSHER, INITIATOR]
     let roleCountArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     let rolePowerArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -49,55 +39,16 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
                 rolePowerArray[j] = rolePowerArray[j] + item['role_levels'][j]
             }
         }
-
-        if(item['role_levels'][0] > 0){
-            carryCount++
-        }
-        if(item['role_levels'][1] > 0){
-            supportCount++
-        }
-        if(item['role_levels'][2] > 0){
-            nukerCount++
-        }
-        if(item['role_levels'][3] > 0){
-            disablerCount++
-        }
-        if(item['role_levels'][4] > 0){
-            junglerCount++
-        }
-        if(item['role_levels'][5] > 0){
-            durableCount++
-        }
-        if(item['role_levels'][6] > 0){
-            escapeCount++
-        }
-        if(item['role_levels'][7] > 0){
-           pusherCount++
-        }
-        if(item['role_levels'][8] > 0){
-            initiatorCount++
-        }
     }
     return {
-        attack_type: {
+        attackType: {
             meleeCount, 
             rangeCount
         },
-        attribute_type: {
+        attributeType: {
             strengthCount, 
             agilityCount, 
             intelligenceCount
-        },
-        role_levels: {
-            carryCount, 
-            supportCount, 
-            nukerCount, 
-            disablerCount, 
-            junglerCount, 
-            durableCount, 
-            escapeCount, 
-            pusherCount, 
-            initiatorCount
         },
         roleCountArray,
         rolePowerArray

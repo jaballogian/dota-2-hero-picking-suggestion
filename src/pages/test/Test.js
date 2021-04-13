@@ -148,7 +148,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={MeleeIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {myTeamInformation['attack_type']['meleeCount']}
+                        {myTeamInformation['attackType']['meleeCount']}
                     </Typography>
                 </div>
 
@@ -156,7 +156,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={RangedIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {myTeamInformation['attack_type']['rangeCount']}
+                        {myTeamInformation['attackType']['rangeCount']}
                     </Typography>
                 </div>
                 
@@ -169,7 +169,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={StrengthAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {myTeamInformation['attribute_type']['strengthCount']}
+                        {myTeamInformation['attributeType']['strengthCount']}
                     </Typography>
                 </div>
 
@@ -177,7 +177,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={AgilityAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {myTeamInformation['attribute_type']['agilityCount']}
+                        {myTeamInformation['attributeType']['agilityCount']}
                     </Typography>
                 </div>
 
@@ -185,7 +185,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={IntelligenceAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {myTeamInformation['attribute_type']['intelligenceCount']}
+                        {myTeamInformation['attributeType']['intelligenceCount']}
                     </Typography>
                 </div>
 
@@ -197,63 +197,63 @@ function Test() {
                 {/* CARRY COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Carry: ${myTeamInformation['role_levels']['carryCount']}`}
+                        {`Carry: ${myTeamInformation['roleCountArray'][0]}`}
                     </Typography>
                 </div>
 
                 {/* SUPPORT COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Support: ${myTeamInformation['role_levels']['supportCount']}`}
+                        {`Support: ${myTeamInformation['roleCountArray'][1]}`}
                     </Typography>
                 </div>
 
                 {/* NUKER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Nuker: ${myTeamInformation['role_levels']['nukerCount']}`}
+                        {`Nuker: ${myTeamInformation['roleCountArray'][2]}`}
                     </Typography>
                 </div>
 
                 {/* DISABLER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Disabler: ${myTeamInformation['role_levels']['disablerCount']}`}
+                        {`Disabler: ${myTeamInformation['roleCountArray'][3]}`}
                     </Typography>
                 </div>
 
                 {/* JUNGLER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Jungler: ${myTeamInformation['role_levels']['junglerCount']}`}
+                        {`Jungler: ${myTeamInformation['roleCountArray'][4]}`}
                     </Typography>
                 </div>
 
                 {/* DURABLE COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Durable: ${myTeamInformation['role_levels']['durableCount']}`}
+                        {`Durable: ${myTeamInformation['roleCountArray'][5]}`}
                     </Typography>
                 </div>
 
                 {/* ESCAPE COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Escape: ${myTeamInformation['role_levels']['escapeCount']}`}
+                        {`Escape: ${myTeamInformation['roleCountArray'][6]}`}
                     </Typography>
                 </div>
 
                 {/* PUSHER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Pusher: ${myTeamInformation['role_levels']['pusherCount']}`}
+                        {`Pusher: ${myTeamInformation['roleCountArray'][7]}`}
                     </Typography>
                 </div>
 
                 {/* INITIATOR COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Initiator: ${myTeamInformation['role_levels']['initiatorCount']}`}
+                        {`Initiator: ${myTeamInformation['roleCountArray'][8]}`}
                     </Typography>
                 </div>
             </div>
@@ -273,7 +273,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={MeleeIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {opponentsTeamInformation['attack_type']['meleeCount']}
+                        {opponentsTeamInformation['attackType']['meleeCount']}
                     </Typography>
                 </div>
 
@@ -281,7 +281,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={RangedIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {opponentsTeamInformation['attack_type']['rangeCount']}
+                        {opponentsTeamInformation['attackType']['rangeCount']}
                     </Typography>
                 </div>
                 
@@ -294,7 +294,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={StrengthAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {opponentsTeamInformation['attribute_type']['strengthCount']}
+                        {opponentsTeamInformation['attributeType']['strengthCount']}
                     </Typography>
                 </div>
 
@@ -302,7 +302,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={AgilityAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {opponentsTeamInformation['attribute_type']['agilityCount']}
+                        {opponentsTeamInformation['attributeType']['agilityCount']}
                     </Typography>
                 </div>
 
@@ -310,7 +310,7 @@ function Test() {
                 <div style={{display: 'flex'}}>
                     <img src={IntelligenceAttribute} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {opponentsTeamInformation['attribute_type']['intelligenceCount']}
+                        {opponentsTeamInformation['attributeType']['intelligenceCount']}
                     </Typography>
                 </div>
 
@@ -322,63 +322,63 @@ function Test() {
                 {/* CARRY COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Carry: ${opponentsTeamInformation['role_levels']['carryCount']}`}
+                        {`Carry: ${opponentsTeamInformation['roleCountArray'][0]}`}
                     </Typography>
                 </div>
 
                 {/* SUPPORT COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Support: ${opponentsTeamInformation['role_levels']['supportCount']}`}
+                        {`Support: ${opponentsTeamInformation['roleCountArray'][1]}`}
                     </Typography>
                 </div>
 
                 {/* NUKER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Nuker: ${opponentsTeamInformation['role_levels']['nukerCount']}`}
+                        {`Nuker: ${opponentsTeamInformation['roleCountArray'][2]}`}
                     </Typography>
                 </div>
 
                 {/* DISABLER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Disabler: ${opponentsTeamInformation['role_levels']['disablerCount']}`}
+                        {`Disabler: ${opponentsTeamInformation['roleCountArray'][3]}`}
                     </Typography>
                 </div>
 
                 {/* JUNGLER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Jungler: ${opponentsTeamInformation['role_levels']['junglerCount']}`}
+                        {`Jungler: ${opponentsTeamInformation['roleCountArray'][4]}`}
                     </Typography>
                 </div>
 
                 {/* DURABLE COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Durable: ${opponentsTeamInformation['role_levels']['durableCount']}`}
+                        {`Durable: ${opponentsTeamInformation['roleCountArray'][5]}`}
                     </Typography>
                 </div>
 
                 {/* ESCAPE COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Escape: ${opponentsTeamInformation['role_levels']['escapeCount']}`}
+                        {`Escape: ${opponentsTeamInformation['roleCountArray'][6]}`}
                     </Typography>
                 </div>
 
                 {/* PUSHER COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Pusher: ${opponentsTeamInformation['role_levels']['pusherCount']}`}
+                        {`Pusher: ${opponentsTeamInformation['roleCountArray'][7]}`}
                     </Typography>
                 </div>
 
                 {/* INITIATOR COUNT */}
                 <div style={{display: 'flex'}}>
                     <Typography variant="h6" style={{color: 'black'}}>
-                        {`Initiator: ${opponentsTeamInformation['role_levels']['initiatorCount']}`}
+                        {`Initiator: ${opponentsTeamInformation['roleCountArray'][8]}`}
                     </Typography>
                 </div>
             </div>
