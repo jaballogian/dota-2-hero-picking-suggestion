@@ -78,12 +78,9 @@ function HeroListContextProvider(props){
         <HeroListContext.Provider 
             value={{
                 heroPoolList,
-                myHeroList,
-                addToMyHeroList,
-                opponentsHeroList,
-                addToOpponentsHeroList,
-                bannedHeroList,
-                addToBannedHeroList,
+                myHeroList, addToMyHeroList,
+                opponentsHeroList, addToOpponentsHeroList,
+                bannedHeroList, addToBannedHeroList,
                 removeHeroFromMyHeroList,
                 removeHeroFromOpponentsHeroList,
                 removeHeroFromBannedHeroList
