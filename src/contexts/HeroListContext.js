@@ -46,24 +46,19 @@ function HeroListContextProvider(props){
         setHeroPoolList(previousValue => [...previousValue, inputHeroData].sort(sortByProperty('name_loc')))
     }
 
-    const removeHeroFromMyHeroList = (inputHeroData) => {
-        console.log('removeHeroFromMyHeroList', inputHeroData)
-        const updatedMyHeroList = myHeroList.filter(item => item.id !== inputHeroData.id)
-        setMyHeroList(updatedMyHeroList)
-        addToHeroPoolList(inputHeroData)
-    }
-
-    const removeHeroFromOpponentsHeroList = (inputHeroData) => {
-        console.log('removeHeroFromOpponentsHeroList', inputHeroData)
-        const updatedOpponentsHeroList = opponentsHeroList.filter(item => item.id !== inputHeroData.id)
-        setOpponentsHeroList(updatedOpponentsHeroList)
-        addToHeroPoolList(inputHeroData)
-    }
-
-    const removeHeroFromBannedHeroList = (inputHeroData) => {
-        console.log('removeHeroFromBannedHeroList', inputHeroData)
-        const updatedBannedHeroList = bannedHeroList.filter(item => item.id !== inputHeroData.id)
-        setBannedHeroList(updatedBannedHeroList)
+    const removeHeroFromList = (inputHeroData, inputHeroListType) => {
+        if(inputHeroListType === 'myHeroList'){
+            const updatedMyHeroList = myHeroList.filter(item => item.id !== inputHeroData.id)
+            setMyHeroList(updatedMyHeroList)
+        }
+        else if(inputHeroListType === 'opponentsHeroList'){
+            const updatedOpponentsHeroList = opponentsHeroList.filter(item => item.id !== inputHeroData.id)
+            setOpponentsHeroList(updatedOpponentsHeroList)
+        }
+        else if(inputHeroListType === 'bannedHeroList'){
+            const updatedBannedHeroList = bannedHeroList.filter(item => item.id !== inputHeroData.id)
+            setBannedHeroList(updatedBannedHeroList)
+        }
         addToHeroPoolList(inputHeroData)
     }
 
@@ -81,9 +76,7 @@ function HeroListContextProvider(props){
                 myHeroList, addToMyHeroList,
                 opponentsHeroList, addToOpponentsHeroList,
                 bannedHeroList, addToBannedHeroList,
-                removeHeroFromMyHeroList,
-                removeHeroFromOpponentsHeroList,
-                removeHeroFromBannedHeroList
+                removeHeroFromList
             }}
         >
             {props.children}

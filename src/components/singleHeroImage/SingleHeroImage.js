@@ -24,9 +24,7 @@ function SingleHeroImage(props){
         addToMyHeroList, 
         addToOpponentsHeroList, 
         addToBannedHeroList,
-        removeHeroFromMyHeroList,
-        removeHeroFromOpponentsHeroList,
-        removeHeroFromBannedHeroList
+        removeHeroFromList
     } = useContext(HeroListContext)
 
     const actionOptions =
@@ -79,18 +77,6 @@ function SingleHeroImage(props){
             />
         </div>
 
-    const deleteHeroFromList = (inputHeroData, inputHeroListType) => {
-        if(inputHeroListType === 'myHeroList'){
-            removeHeroFromMyHeroList(inputHeroData)
-        }
-        else if(inputHeroListType === 'opponentsHeroList'){
-            removeHeroFromOpponentsHeroList(inputHeroData)
-        }
-        else if(inputHeroListType === 'bannedHeroList'){
-            removeHeroFromBannedHeroList(inputHeroData)
-        }
-    }
-
     // REMOVE HERO FROM LIST
     const deleteOption =
         isHovered &&
@@ -105,7 +91,7 @@ function SingleHeroImage(props){
                 top:0,
                 padding: '5px 5px 0px 5px'
             }}
-            onClick={() => deleteHeroFromList(props.heroData, props.listType)}
+            onClick={() => removeHeroFromList(props.heroData, props.listType)}
         />
 
     const heroPrimaryAttribute = () => {
