@@ -13,16 +13,11 @@ function HeroListContextProvider(props){
     const [bannedHeroList, setBannedHeroList] = useState([])                // MAXIMUM LENGTH IS 14
 
     // DEFINING CONSTANT FUNCTIONS
-    const removeHeroFromHeroPoolList = (inputHeroData) => {
-        const updatedHeroPoolList = heroPoolList.filter(item => item.id !== inputHeroData.id)
-        setHeroPoolList(updatedHeroPoolList)
-    }
-
     const addToMyHeroList = (inputHeroData) => {
         // console.log('addToMyHeroList', inputHeroData)
         if(myHeroList.length < 5){
             setMyHeroList(previousValue => [...previousValue, inputHeroData])
-            removeHeroFromHeroPoolList(inputHeroData)
+            removeHeroFromList(inputHeroData, 'heroPoolList')
         }
     }
 
@@ -30,7 +25,7 @@ function HeroListContextProvider(props){
         // console.log('addToOpponentsHeroList', inputHeroData)
         if(opponentsHeroList.length < 5){
             setOpponentsHeroList(previousValue => [...previousValue, inputHeroData])
-            removeHeroFromHeroPoolList(inputHeroData)
+            removeHeroFromList(inputHeroData, 'heroPoolList')
         }
     }
 
@@ -38,7 +33,7 @@ function HeroListContextProvider(props){
         // console.log('addToBannedHeroList', inputHeroData)
         if(bannedHeroList.length < 14){
             setBannedHeroList(previousValue => [...previousValue, inputHeroData])
-            removeHeroFromHeroPoolList(inputHeroData)
+            removeHeroFromList(inputHeroData, 'heroPoolList')
         }
     }
 
@@ -47,19 +42,25 @@ function HeroListContextProvider(props){
     }
 
     const removeHeroFromList = (inputHeroData, inputHeroListType) => {
-        if(inputHeroListType === 'myHeroList'){
+        if(inputHeroListType === 'heroPoolList'){
+            const updatedHeroPoolList = heroPoolList.filter(item => item.id !== inputHeroData.id)
+            setHeroPoolList(updatedHeroPoolList)
+        }
+        else if(inputHeroListType === 'myHeroList'){
             const updatedMyHeroList = myHeroList.filter(item => item.id !== inputHeroData.id)
             setMyHeroList(updatedMyHeroList)
+            addToHeroPoolList(inputHeroData)
         }
         else if(inputHeroListType === 'opponentsHeroList'){
             const updatedOpponentsHeroList = opponentsHeroList.filter(item => item.id !== inputHeroData.id)
             setOpponentsHeroList(updatedOpponentsHeroList)
+            addToHeroPoolList(inputHeroData)
         }
         else if(inputHeroListType === 'bannedHeroList'){
             const updatedBannedHeroList = bannedHeroList.filter(item => item.id !== inputHeroData.id)
             setBannedHeroList(updatedBannedHeroList)
+            addToHeroPoolList(inputHeroData)
         }
-        addToHeroPoolList(inputHeroData)
     }
 
     // CALLING CONSTANT FUNCTIONS
