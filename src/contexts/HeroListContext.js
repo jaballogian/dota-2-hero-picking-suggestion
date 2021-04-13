@@ -41,6 +41,31 @@ function HeroListContextProvider(props){
         }
     }
 
+    const addToHeroPoolList = (inputHeroData) => {
+        setHeroPoolList(previousValue => [...previousValue, inputHeroData])
+    }
+
+    const removeHeroFromMyHeroList = (inputHeroData) => {
+        console.log('removeHeroFromMyHeroList', inputHeroData)
+        const updatedMyHeroList = myHeroList.filter(item => item.id !== inputHeroData.id)
+        setMyHeroList(updatedMyHeroList)
+        addToHeroPoolList(inputHeroData)
+    }
+
+    const removeHeroFromOpponentsHeroList = (inputHeroData) => {
+        console.log('removeHeroFromOpponentsHeroList', inputHeroData)
+        const updatedOpponentsHeroList = opponentsHeroList.filter(item => item.id !== inputHeroData.id)
+        setOpponentsHeroList(updatedOpponentsHeroList)
+        addToHeroPoolList(inputHeroData)
+    }
+
+    const removeHeroFromBannedHeroList = (inputHeroData) => {
+        console.log('removeHeroFromBannedHeroList', inputHeroData)
+        const updatedBannedHeroList = bannedHeroList.filter(item => item.id !== inputHeroData.id)
+        setBannedHeroList(updatedBannedHeroList)
+        addToHeroPoolList(inputHeroData)
+    }
+
     // CALLING CONSTANT FUNCTIONS
     // console.log('heroPoolList', heroPoolList)
     // console.log('myHeroList', myHeroList)
@@ -57,7 +82,10 @@ function HeroListContextProvider(props){
                 opponentsHeroList,
                 addToOpponentsHeroList,
                 bannedHeroList,
-                addToBannedHeroList
+                addToBannedHeroList,
+                removeHeroFromMyHeroList,
+                removeHeroFromOpponentsHeroList,
+                removeHeroFromBannedHeroList
             }}
         >
             {props.children}
