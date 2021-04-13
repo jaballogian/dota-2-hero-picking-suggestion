@@ -30,6 +30,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
+            actionType='action'
         />
     ))
 
@@ -40,6 +41,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
+            actionType='delete'
         />
     ))
 
@@ -50,6 +52,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
+            actionType='delete'
         />
     ))
 
@@ -60,6 +63,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
+            actionType='delete'
         />
     ))
 

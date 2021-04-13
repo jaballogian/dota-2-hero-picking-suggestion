@@ -155,8 +155,9 @@ function SingleHeroImage(props){
                     height: '100%'
                 }}
             />
-            {actionOptions}
-            {/* {deleteOption} */}
+            {
+                props.actionType === 'action' ? actionOptions : deleteOption
+            }
             {heroFullname}
         </div>
     )
