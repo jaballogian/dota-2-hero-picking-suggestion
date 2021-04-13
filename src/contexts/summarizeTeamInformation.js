@@ -16,6 +16,10 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
     let pusherCount = 0
     let initiatorCount = 0
 
+    // [CARRY, SUPPORT, NUKER, DISABLER, JUNGLER, DURABLE, ESCAPE, PUSHER, INITIATOR]
+    let roleCountArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    let rolePowerArray = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
     for(let i = 0; i < inputHeroListTeam.length; i++){
         const item = inputHeroListTeam[i]
 
@@ -39,6 +43,13 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
         }
 
         // COUNT FOR HERO ROLES
+        for(let j = 0; j < roleCountArray.length; j++){
+            if(item['role_levels'][j] > 0){
+                roleCountArray[j]++
+                rolePowerArray[j] = rolePowerArray[j] + item['role_levels'][j]
+            }
+        }
+
         if(item['role_levels'][0] > 0){
             carryCount++
         }
@@ -87,7 +98,9 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
             escapeCount, 
             pusherCount, 
             initiatorCount
-        }
+        },
+        roleCountArray,
+        rolePowerArray
     }
 }
 
