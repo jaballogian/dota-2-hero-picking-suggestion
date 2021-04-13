@@ -2,6 +2,7 @@ import React, {useState, useContext} from 'react'
 
 // CUSTOM COMPONENTS AND DATA
 import {HeroListContext} from '../../contexts/HeroListContext'
+import variables from '../../utils/variables'
 
 // IMAGES
 import strengthAttribute from '../../images/attributes/hero_strength.png'
@@ -46,7 +47,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addHeroToList(props.heroData, 'opponentsHeroList')}
+                onClick={() => addHeroToList(props.heroData, variables.opponentsHeroList)}
             />
 
             {/* BAN THIS HERO */}
@@ -57,7 +58,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addHeroToList(props.heroData, 'bannedHeroList')}
+                onClick={() => addHeroToList(props.heroData, variables.bannedHeroList)}
             />
 
             {/* ADD HERO TO MY TEAM */}
@@ -68,7 +69,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addHeroToList(props.heroData, 'myHeroList')}
+                onClick={() => addHeroToList(props.heroData, variables.myHeroList)}
             />
         </div>
 

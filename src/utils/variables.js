@@ -5,3 +5,5 @@ const variables = {
     opponentsHeroList: 'opponentsHeroList',
     bannedHeroList: 'bannedHeroList'
 }
+
+export default variables

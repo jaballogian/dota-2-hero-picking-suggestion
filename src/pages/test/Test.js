@@ -4,6 +4,7 @@ import React, {useContext} from 'react'
 import { HeroListContext } from '../../contexts/HeroListContext'
 import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
 import summarizeTeamInformation from '../../contexts/summarizeTeamInformation'
+import variables from '../../utils/variables'
 
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
@@ -31,7 +32,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='action'
-            listType='heroPoolList'
+            listType={variables.heroPoolList}
         />
     ))
 
@@ -43,7 +44,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
-            listType='myHeroList'
+            listType={variables.myHeroList}
         />
     ))
 
@@ -55,7 +56,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
-            listType='opponentsHeroList'
+            listType={variables.opponentsHeroList}
         />
     ))
 
@@ -67,7 +68,7 @@ function Test() {
             attribute={item.primary_attr}
             heroData={item}
             actionType='delete'
-            listType='bannedHeroList'
+            listType={variables.bannedHeroList}
         />
     ))
 
