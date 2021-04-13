@@ -41,15 +41,15 @@ const summarizeTeamInformation = (inputHeroListTeam) => {
         }
     }
     return {
-        attackType: {
+        attackType: [
             meleeCount, 
             rangeCount
-        },
-        attributeType: {
+        ],
+        attributeType: [
             strengthCount, 
             agilityCount, 
             intelligenceCount
-        },
+        ],
         roleCountArray,
         rolePowerArray
     }
