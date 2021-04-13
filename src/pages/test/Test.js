@@ -67,8 +67,8 @@ function Test() {
     const myTeamInformation = summarizeTeamInformation(myHeroList)
     const opponentsTeamInformation = summarizeTeamInformation(opponentsHeroList)
 
-    console.log('my team information', myTeamInformation)
-    console.log("opponent's team information", opponentsTeamInformation)
+    // console.log('my team information', myTeamInformation)
+    // console.log("opponent's team information", opponentsTeamInformation)
 
     // RETURNING VIEW
     return(

@@ -16,7 +16,7 @@ function TeamInformation(props){
     // DEFINING CONSTANT VARIABLES
     const attackTypeIconList = [MeleeIcon, RangedIcon]
     const attributeTypeIconList = [StrengthAttribute, AgilityAttribute, IntelligenceAttribute]
-    const roleCountKeyList = [
+    const roleKeyList = [
         'Carry', 'Support', 'Nuker',
         'Disabler', 'Jungler', 'Durable',
         'Escape', 'Pusher', 'Initiator'
@@ -42,7 +42,13 @@ function TeamInformation(props){
 
     const roleCountListView = props.data.roleCountArray.map((item, index) => (
         <Typography key={index} variant="h6" style={{color: 'black'}}>
-            {`${roleCountKeyList[index]}: ${item}`}
+            {`${roleKeyList[index]}: ${item}`}
+        </Typography>
+    ))
+
+    const rolePowerListView = props.data.rolePowerArray.map((item, index) => (
+        <Typography key={index} variant="h6" style={{color: 'black'}}>
+            {`${roleKeyList[index]}: ${item}`}
         </Typography>
     ))
     
@@ -68,10 +74,17 @@ function TeamInformation(props){
 
             {/* ATTRIBUTE TYPES */}
             <Typography variant="h6" style={{color: 'black'}}>
-                Roles
+                Role Counts
             </Typography>
 
             {roleCountListView}
+
+            {/* ATTRIBUTE TYPES */}
+            <Typography variant="h6" style={{color: 'black'}}>
+                Role Powers
+            </Typography>
+
+            {rolePowerListView}
         </div>
     )
 }
