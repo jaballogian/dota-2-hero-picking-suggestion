@@ -14,14 +14,24 @@ import Typography from '@material-ui/core/Typography';
 
 function TeamInformation(props){
     // DEFINING CONSTANT VARIABLES
+    const attackTypeIconList = [MeleeIcon, RangedIcon]
     const roleCountKeyList = [
         'Carry', 'Support', 'Nuker',
         'Disabler', 'Jungler', 'Durable',
         'Escape', 'Pusher', 'Initiator'
     ]
 
-    const roleCountArray = props.data.roleCountArray.map((item, index) => (
-        <Typography variant="h6" style={{color: 'black'}}>
+    const attackTypeListView = props.data.attackType.map((item, index) => (
+        <div key={index} style={{display: 'flex'}}>
+            <img src={attackTypeIconList[index]} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
+            <Typography variant="h6" style={{color: 'black'}}>
+                {item}
+            </Typography>
+        </div>
+    ))
+
+    const roleCountListView = props.data.roleCountArray.map((item, index) => (
+        <Typography key={index} variant="h6" style={{color: 'black'}}>
             {`${roleCountKeyList[index]}: ${item}`}
         </Typography>
     ))
@@ -37,21 +47,7 @@ function TeamInformation(props){
                 Attack Types
             </Typography>
             
-            {/* MELEE COUNT */}
-            <div style={{display: 'flex'}}>
-                <img src={MeleeIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
-                <Typography variant="h6" style={{color: 'black'}}>
-                    {props.data['attackType']['meleeCount']}
-                </Typography>
-            </div>
-
-            {/* RANGED COUNT */}
-            <div style={{display: 'flex'}}>
-                <img src={RangedIcon} alt='' style={{height: 20, width: 20, marginRight: 10}}/>
-                <Typography variant="h6" style={{color: 'black'}}>
-                    {props.data['attackType']['rangeCount']}
-                </Typography>
-            </div>
+            {attackTypeListView}
             
             {/* ATTRIBUTE TYPES */}
             <Typography variant="h6" style={{color: 'black'}}>
@@ -87,7 +83,7 @@ function TeamInformation(props){
                 Roles
             </Typography>
 
-            {roleCountArray}
+            {roleCountListView}
         </div>
     )
 }
