@@ -31,7 +31,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
-            actionType='action'
+            actionType={variables.action}
             listType={variables.heroPoolList}
         />
     ))
@@ -43,7 +43,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
-            actionType='delete'
+            actionType={variables.delete}
             listType={variables.myHeroList}
         />
     ))
@@ -55,7 +55,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
-            actionType='delete'
+            actionType={variables.delete}
             listType={variables.opponentsHeroList}
         />
     ))
@@ -67,7 +67,7 @@ function Test() {
             image={item.image} 
             attribute={item.primary_attr}
             heroData={item}
-            actionType='delete'
+            actionType={variables.delete}
             listType={variables.bannedHeroList}
         />
     ))

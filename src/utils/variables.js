@@ -3,7 +3,11 @@ const variables = {
     heroPoolList: 'heroPoolList',
     myHeroList: 'myHeroList',
     opponentsHeroList: 'opponentsHeroList',
-    bannedHeroList: 'bannedHeroList'
+    bannedHeroList: 'bannedHeroList',
+
+    // SINGLE HERO ACTION TYPES
+    action: 'action',
+    delete: 'delete'
 }
 
 export default variables

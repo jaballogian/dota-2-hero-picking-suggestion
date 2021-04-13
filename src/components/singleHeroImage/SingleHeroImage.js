@@ -157,7 +157,7 @@ function SingleHeroImage(props){
                 }}
             />
             {
-                props.actionType === 'action' ? actionOptions : deleteOption
+                props.actionType === variables.action ? actionOptions : deleteOption
             }
             {heroFullname}
         </div>
