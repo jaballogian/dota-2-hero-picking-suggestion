@@ -11,6 +11,7 @@ import intelligenceAttribute from '../../images/attributes/hero_intelligence.png
 // ICONS
 import AddCircleOutlineRoundedIcon from '@material-ui/icons/AddCircleOutlineRounded'
 import BlockRoundedIcon from '@material-ui/icons/BlockRounded'
+import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
@@ -35,7 +36,7 @@ function SingleHeroImage(props){
                 justifyContent: 'space-between', 
                 padding: '5px 5px 0px 5px', 
                 boxSizing: 'border-box'
-                }}
+            }}
         >
             {/* ADD HERO TO OPPONENT'S TEAM */}
             <AddCircleOutlineRoundedIcon 
@@ -70,6 +71,23 @@ function SingleHeroImage(props){
                 onClick={() => addToMyHeroList(props.heroData)}
             />
         </div>
+
+    const deleteOption =
+        isHovered &&
+        // REMOVE HERO FROM LIST
+        <DeleteOutlinedIcon 
+            style={{
+                color: 'white', 
+                height: 30, 
+                width: 30, 
+                cursor: 'pointer',
+                position: 'absolute', 
+                left: 0, 
+                top:0,
+                padding: '5px 5px 0px 5px'
+            }}
+            onClick={() => console.log('remove hero from list is clicked', props.heroData)}
+        />
 
     const heroPrimaryAttribute = () => {
         if(props.attribute === 0){
@@ -138,6 +156,7 @@ function SingleHeroImage(props){
                 }}
             />
             {actionOptions}
+            {/* {deleteOption} */}
             {heroFullname}
         </div>
     )
