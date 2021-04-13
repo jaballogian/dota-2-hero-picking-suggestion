@@ -1,5 +1,7 @@
 import React from 'react'
 
+import variables from '../../utils/variables'
+
 // ICONS
 import MeleeIcon from '../../images/attack_type/melee.svg'
 import RangedIcon from '../../images/attack_type/ranged.svg'
@@ -55,32 +57,32 @@ function TeamInformation(props){
     return(
         <div style={{margin: 20}}>
             <Typography variant="h6" style={{color: 'black'}}>
-                My Team Information
+                {props.listType === variables.myHeroList ? 'My Team Information' : "Opponent's Team Information"}
             </Typography>
             
             {/* ATTACK TYPES */}
-            <Typography variant="h6" style={{color: 'black'}}>
+            <Typography variant="h6" style={{color: 'orange'}}>
                 Attack Types
             </Typography>
             
             {attackTypeListView}
             
             {/* ATTRIBUTE TYPES */}
-            <Typography variant="h6" style={{color: 'black'}}>
+            <Typography variant="h6" style={{color: 'orange'}}>
                 Attribute Types
             </Typography>
 
             {attributeTypeListView}
 
             {/* ATTRIBUTE TYPES */}
-            <Typography variant="h6" style={{color: 'black'}}>
+            <Typography variant="h6" style={{color: 'orange'}}>
                 Role Counts
             </Typography>
 
             {roleCountListView}
 
             {/* ATTRIBUTE TYPES */}
-            <Typography variant="h6" style={{color: 'black'}}>
+            <Typography variant="h6" style={{color: 'orange'}}>
                 Role Powers
             </Typography>
 

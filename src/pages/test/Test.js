@@ -125,8 +125,8 @@ function Test() {
                 {heroPoolListView}
             </div>
 
-            <TeamInformation data={myTeamInformation}/>
-            <TeamInformation data={opponentsTeamInformation}/>
+            <TeamInformation data={myTeamInformation} listType={variables.myHeroList}/>
+            <TeamInformation data={opponentsTeamInformation} listType={variables.opponentsHeroList}/>
         </div>
     )
 }
