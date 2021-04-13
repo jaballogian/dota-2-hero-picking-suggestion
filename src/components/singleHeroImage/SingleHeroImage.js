@@ -20,12 +20,7 @@ function SingleHeroImage(props){
     // DEFINING CONSTANT VARIABLES
     const [isHovered, setIsHovered] = useState(false)
 
-    const {
-        addToMyHeroList, 
-        addToOpponentsHeroList, 
-        addToBannedHeroList,
-        removeHeroFromList
-    } = useContext(HeroListContext)
+    const { addHeroToList, removeHeroFromList } = useContext(HeroListContext)
 
     const actionOptions =
         isHovered &&
@@ -51,7 +46,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToOpponentsHeroList(props.heroData)}
+                onClick={() => addHeroToList(props.heroData, 'opponentsHeroList')}
             />
 
             {/* BAN THIS HERO */}
@@ -62,7 +57,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToBannedHeroList(props.heroData)}
+                onClick={() => addHeroToList(props.heroData, 'bannedHeroList')}
             />
 
             {/* ADD HERO TO MY TEAM */}
@@ -73,7 +68,7 @@ function SingleHeroImage(props){
                     width: 30, 
                     cursor: 'pointer'
                 }}
-                onClick={() => addToMyHeroList(props.heroData)}
+                onClick={() => addHeroToList(props.heroData, 'myHeroList')}
             />
         </div>
 
