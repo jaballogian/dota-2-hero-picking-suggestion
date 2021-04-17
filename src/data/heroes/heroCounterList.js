@@ -752,6 +752,311 @@ const heroCounterList = [
             "Timbersaw",
             "Sven"
         ]
+    },
+    {
+        "id": 55,
+        "name_loc": "Dark Seer",
+        "bad_against": [
+            "Anti-Mage",
+            "Bloodseeker",
+            "Ember Spirit",
+            "Kunkka",
+            "Oracle",
+            "Sniper"
+        ],
+        "good_against": [
+            "Broodmother",
+            "Templar Assassin",
+            "Treant Protector",
+            "Meepo",
+            "Terrorblade",
+            "Venomancer"
+        ],
+        "works_well_with": [
+            "Bounty Hunter",
+            "Elder Titan",
+            "Enigma",
+            "Riki",
+            "Sven",
+            "Venomancer"
+        ]
+    },
+    {
+        "id": 119,
+        "name_loc": "Dark Willow",
+        "bad_against": [
+            "Anti-Mage",
+            "Axe",
+            "Bristleback",
+            "Drow Ranger",
+            "Ember Spirit",
+            "Juggernaut",
+            "Lifestealer",
+            "Nyx Assassin",
+            "Oracle",
+            "Puck",
+            "Pudge",
+            "Riki",
+            "Silencer",
+            "Storm Spirit"
+        ],
+        "good_against": [
+            "Bloodseeker",
+            "Faceless Void",
+            "Monkey King",
+            "Meepo",
+            "Spirit Breaker",
+            "Timbersaw",
+            "Troll Warlord",
+            "Windranger"
+        ],
+        "works_well_with": [
+            "Mars",
+            "Rubick",
+            "Ember Spirit",
+            "Invoker",
+            "Juggernaut",
+            "Lina",
+            "Mirana",
+            "Phoenix",
+            "Puck",
+            "Warlock",
+            "Weaver",
+            "Axe"
+        ]
+    },
+    {
+        "id": 135,
+        "name_loc": "Dawnbreaker",
+        "bad_against": [
+            "Viper",
+            "Nyx Assassin",
+            "Disruptor"
+        ],
+        "good_against": [
+            "Nature's Prophet"
+        ],
+        "works_well_with": [
+        ]
+    },
+    {
+        "id": 50,
+        "name_loc": "Dazzle",
+        "bad_against": [
+            "Ancient Apparition",
+            "Axe",
+            "Naga Siren",
+            "Outworld Destroyer",
+            "Phantom Lancer",
+            "Silencer",
+            "Doom"
+        ],
+        "good_against": [
+            "Clockwerk",
+            "Necrophos",
+            "Venomancer"
+        ],
+        "works_well_with": [
+            "Brewmaster",
+            "Broodmother",
+            "Huskar",
+            "Meepo",
+            "Naga Siren",
+            "Phantom Lancer"
+        ]
+    },
+    {
+        "id": 43,
+        "name_loc": "Death Prophet",
+        "bad_against": [
+            "Ancient Apparition",
+            "Anti-Mage",
+            "Doom",
+            "Legion Commander",
+            "Omniknight",
+            "Shadow Fiend"
+        ],
+        "good_against": [
+            "Zeus",
+            "Invoker",
+            "Morphling",
+            "Timbersaw",
+            "Nature's Prophet"
+        ],
+        "works_well_with": [
+            "Enigma",
+            "Faceless Void"
+        ]
+    },
+    {
+        "id": 87,
+        "name_loc": "Disruptor",
+        "bad_against": [
+            "Abaddon",
+            "Kunkka",
+            "Juggernaut",
+            "Lifestealer",
+            "Omniknight",
+            "Phantom Lancer",
+            "Pugna",
+            "Sniper",
+            "Viper"
+        ],
+        "good_against": [
+            "Anti-Mage",
+            "Io",
+            "Queen of Pain",
+            "Slark",
+            "Storm Spirit",
+            "Tidehunter"
+        ],
+        "works_well_with": [
+            "Zeus",
+            "Anti-Mage",
+            "Keeper of the Light",
+            "Warlock",
+            "Clinkz"
+        ]
+    },
+    {
+        "id": 69,
+        "name_loc": "Doom",
+        "bad_against": [
+            "Alchemist",
+            "Centaur Warrunner",
+            "Drow Ranger",
+            "Lifestealer",
+            "Lone Druid",
+            "Medusa",
+            "Necrophos",
+            "Phantom Lancer",
+            "Sniper",
+            "Viper",
+            "Wraith King"
+        ],
+        "good_against": [
+            "Axe",
+            "Timbersaw",
+            "Anti-Mage",
+            "Bristleback",
+            "Tidehunter",
+            "Ember Spirit",
+            "Invoker",
+            "Omniknight",
+            "Tinker",
+            "Elder Titan",
+            "Faceless Void",
+            "Pudge",
+            "Spectre",
+            "Arc Warden"
+        ],
+        "works_well_with": [
+            "Ancient Apparition",
+            "Crystal Maiden",
+            "Grimstroke",
+            "Sven",
+            "Bane"
+        ]
+    },
+    {
+        "id": 49,
+        "name_loc": "Dragon Knight",
+        "bad_against": [
+            "Ancient Apparition",
+            "Bristleback",
+            "Drow Ranger",
+            "Lich",
+            "Necrophos",
+            "Ursa",
+            "Outworld Destroyer",
+            "Razor",
+            "Timbersaw",
+            "Viper"
+        ],
+        "good_against": [
+            "Bloodseeker",
+            "Clinkz",
+            "Nyx Assassin",
+            "Riki",
+            "Spirit Breaker",
+            "Templar Assassin",
+            "Witch Doctor"
+        ],
+        "works_well_with": [
+            "Chen",
+            "Crystal Maiden",
+            "Enigma",
+            "Magnus",
+            "Medusa",
+            "Treant Protector",
+            "Vengeful Spirit"
+        ]
+    },
+    {
+        "id": 6,
+        "name_loc": "Drow Ranger",
+        "bad_against": [
+            "Faceless Void",
+            "Tinker",
+            "Arc Warden",
+            "Tusk",
+            "Axe",
+            "Clockwerk",
+            "Chaos Knight",
+            "Huskar",
+            "Lycan",
+            "Nyx Assassin",
+            "Omniknight",
+            "Phantom Lancer",
+            "Pudge",
+            "Razor",
+            "Riki",
+            "Slark",
+            "Sniper"
+        ],
+        "good_against": [
+            "Ember Spirit",
+            "Dragon Knight",
+            "Juggernaut",
+            "Anti-Mage",
+            "Weaver",
+            "Mirana",
+            "Monkey King",
+            "Rubick"
+        ],
+        "works_well_with": [
+            "Visage",
+            "Windranger",
+            "Vengeful Spirit",
+            "Medusa",
+            "Enigma",
+            "Clockwerk"
+        ]
+    },
+    {
+        "id": 107,
+        "name_loc": "Earth Spirit",
+        "bad_against": [
+            "Abaddon",
+            "Lycan",
+            "Techies",
+            "Slark"
+        ],
+        "good_against": [
+            "Pudge",
+            "Tinker",
+            "Invoker",
+            "Templar Assassin",
+            "Enigma"
+        ],
+        "works_well_with": [
+            "Alchemist",
+            "Bloodseeker",
+            "Dark Seer",
+            "Faceless Void",
+            "Lifestealer",
+            "Techies"
+        ]
     }
 ]
 
