@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Storm Spirit/Counters - Dota 2 Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Storm_Spirit/Counters","wgTitle":"Storm Spirit/Counters","wgCurRevisionId":2093351,"wgRevisionId":2093351,"wgArticleId":247308,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Help wanted","Counters"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Storm_Spirit/Counters","wgRelevantArticleId":247308,"wgRequestId":"fa90d981de2122e","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoExternals":false,"wgArticleInterlangList":["ru:Storm Spirit/Противостоящие"],"wikiaPageType":"article","wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":false,"usePageDescriptions":false},"wgCargoMapClusteringMinimum":80,"wgCargoMonthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"wgCargoMonthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgCargoWeekDays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"wgCargoWeekDaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"wgMFDisplayWikibaseDescriptions":{"search":false,"nearby":false,"watchlist":false,"tagline":false},"wgCollapsibleVectorEnabledModules":{"collapsiblenav":true,"experiments":true},"egMapsScriptPath":"/extensions/Maps/","egMapsDebugJS":false,"egMapsAvailableServices":["leaflet","googlemaps3"],"egMapsLeafletLayersApiKeys":{"MapBox":"","MapQuestOpen":"","Thunderforest":"","GeoportailFrance":""},"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false,"wgCodeMirrorEnabled":true,"egFacebookAppId":"112328095453510","comscoreKeyword":"wikiacsid_games","quantcastLabels":"","disclaimerMessage":"Fandom may earn an affiliate commission on sales made from links on this page.","wgEnableDiscussions":false,"viewTrackUrlPrefix":"https://beacon.wikia-services.com/__track/view?c=2294591\u0026lc=en\u0026lid=75\u0026x=dota2_gamepedia\u0026s=hydra\u0026mobile_theme=gamepedia-light\u0026rollout_tracking=ucp","wgEnableHydraFeatures":true,"wgBlankImgUrl":"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D","wgPerformanceMonitoringSamplingFactor":10,"wgPerformanceMonitoringEndpointUrl":"https://beacon.wikia-services.com/__track/special/performance_metrics?w=2294591\u0026lc=en\u0026d=dota2_gamepedia\u0026s=hydra\u0026u=0\u0026i=sjc-prod\u0026a=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters","wgSoftwareVersion":"release-188.002@release-188.002\n"});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.staffSig.css":"ready","ext.fandom.AffiliateService.css":"ready","ext.fandom.bannerNotifications.css":"ready","ext.fandom.DesignSystem.css":"ready","ext.fandom.UserPreferencesV2.css":"ready","ext.fandom.CreatePage.css":"ready","ext.fandom.ArticleInterlang.css":"ready","skin.hydra.css":"ready","skins.vector.styles.responsive":"ready","ext.social.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","skins.z.hydra.light.styles":"ready","skins.hydra.googlefont.styles":"ready","skins.hydra.netbar":"ready","skins.hydra.footer":"ready","skins.hydra.advertisements.styles":"ready","skins.hydra.oasisOverrides":"ready","skins.hydra.theme":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["ext.audioButton","ext.cargo.main","ext.scribunto.logs","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.fandom.FacebookTags.js","ext.fandom.ae.babTracking.js","ext.fandom.ae.consentQueue.js","ext.fandom.AnalyticsEngine.comscore.js","ext.fandom.AnalyticsEngine.quantcast.js","ext.fandom.AffiliateService.js","ext.fandom.bannerNotifications.js","ext.fandom.HeartbeatTracking.js","ext.fandom.Track.pageview.js","ext.fandom.SeoRedlinks.anchors.js","ext.fandom.CreatePage.js","ext.collapsiblevector.collapsibleNav","ext.gadget.Countdown","ext.gadget.expandPartners","ext.gadget.ReferenceTooltips","ext.gadget.styleCargoTables","ext.fandom.WikiaInYourLang.js","ext.fandom.performanceMonitoring.js","ext.fandom.GalleryTracking.js","skins.vector.js","skins.hydra.advertisements.js","skins.hydra.footer.js","ext.social.scripts"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.fandom.AffiliateService.css%7Cext.fandom.ArticleInterlang.css%7Cext.fandom.CreatePage.css%7Cext.fandom.DesignSystem.css%7Cext.fandom.UserPreferencesV2.css%7Cext.fandom.bannerNotifications.css%7Cext.social.styles%7Cext.staffSig.css%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskin.hydra.css%7Cskins.hydra.advertisements.styles%7Cskins.hydra.footer%2Cnetbar%2CoasisOverrides%2Ctheme%7Cskins.hydra.googlefont.styles%7Cskins.vector.styles%7Cskins.vector.styles.responsive%7Cskins.z.hydra.light.styles&amp;only=styles&amp;skin=hydra"/>
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;skin=hydra"></script>
+<link rel="stylesheet" href="https://static.wikia.nocookie.net/fandom-ae-assets/platforms/v81.16.0/ucp-hydra/styles.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=hydra"/>
+<meta name="generator" content="MediaWiki 1.33.3"/>
+<meta name="description" content="1 Bad against... 1.1 Others 1.2 Items 2 Good against... 2.1 Others 3 Works well with... 3.1 Others Mana Break can quickly burn Storm Spirit&#039;s mana, preventing him from escaping. Blink allows Anti-Mage to catch up to Storm Spirit when he tries to use his Ball Lightning to escape. Mana Void deals..."/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@getfandom"/>
+<meta name="twitter:url" content="https://dota2.fandom.com/wiki/Storm_Spirit/Counters"/>
+<meta name="twitter:title" content="Storm Spirit/Counters - Dota 2 Wiki"/>
+<meta name="twitter:description" content="Storm Spirit/Counters - Dota 2 Wiki"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/wiki/Storm_Spirit/Counters?action=edit"/>
+<link rel="edit" title="Edit" href="/wiki/Storm_Spirit/Counters?action=edit"/>
+<link rel="shortcut icon" href="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/64/Favicon.ico/revision/latest?cb=20180105190509"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Dota 2 Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://dota2.fandom.com/api.php?action=rsd"/>
+<link rel="license" href="https://www.fandom.com/licensing"/>
+<link rel="alternate" type="application/atom+xml" title="Dota 2 Wiki Atom feed" href="/wiki/Special:RecentChanges?feed=atom"/>
+<link rel="canonical" href="https://dota2.fandom.com/wiki/Storm_Spirit/Counters"/>
+	<meta property="fb:app_id" content="112328095453510" prefix="fb: http://www.facebook.com/2008/fbml"/>
+
+	<meta property="og:type" content="article"/>
+
+	<meta property="og:site_name" content="Dota 2 Wiki"/>
+
+	<meta property="og:title" content="Storm Spirit/Counters"/>
+
+	<meta property="og:description" content="1 Bad against... 1.1 Others 1.2 Items 2 Good against... 2.1 Others 3 Works well with... 3.1 Others Mana Break can quickly burn Storm Spirit&#039;s mana, preventing him from escaping. Blink allows Anti-Mage to catch up to Storm Spirit when he tries to use his Ball Lightning to escape. Mana Void deals massive damage to Storm Spirit as well as his teammates, as Storm Spirit depletes his mana pool by using Ball Lightning. Counterspell&#039;s passive magic resistance reduces much of Storm Spirit&#039;s magical dama"/>
+
+	<meta property="og:url" content="https://dota2.fandom.com/wiki/Storm_Spirit/Counters"/>
+
+	<meta property="og:image" content="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/bc/Wiki.png/revision/latest/zoom-crop/width/200/height/200?cb=20180323102330"/>
+
+<script>var ads={"context":{"opts":{"adEngineVersion":"v81.16.0","enableCheshireCat":true,"enableTLBPlaceholder":true,"enableTBPlaceholder":true,"enableICBPlaceholder":true,"isGamepedia":true,"pageType":"all_ads","platformName":"gamepedia","showAds":true},"targeting":{"enablePageCategories":true,"esrbRating":"teen","isUcp":true,"mappedVerticalName":"gaming","pageArticleId":247308,"pageIsArticle":true,"pageName":"Storm_Spirit/Counters","pageType":"article","wikiDbName":"dota2_gamepedia","wikiId":2294591,"wikiLanguage":"en","wikiVertical":"games"}},"consentQueue":[]};</script>
+<script src="https://static.wikia.nocookie.net/fandom-ae-assets/platforms/v81.16.0/ucp-hydra/main.bundle.js" defer=""></script>
+<!-- Fandom Beacon Tracking -->
+<script>
+    window.RLQ = window.RLQ || [];
+
+    window.RLQ.push(function () {
+        function genUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+
+                return v.toString(16);
+            });
+        }
+
+        function getCookieValue(cookieName) {
+            var cookieSplit = ('; ' + document.cookie).split('; ' + cookieName + '=');
+
+            return cookieSplit.length === 2 ? cookieSplit.pop().split(';').shift() : null;
+        }
+
+        var beacon = getCookieValue('wikia_beacon_id');
+        var sessionId = getCookieValue('tracking_session_id');
+        var pvNumber = getCookieValue('pv_number');
+        var pvNumberGlobal = getCookieValue('pv_number_global');
+        var expireDate = new Date(Date.now() + 1000 * 60 * 30);
+        var path = mw.config.get('wgScriptPath') || '/';
+
+        mw.config.set({
+            sessionId: sessionId ? sessionId : genUID(),
+            pvNumber: pvNumber ? parseInt(pvNumber, 10) + 1 : 1,
+            pvNumberGlobal: pvNumberGlobal ? parseInt(pvNumberGlobal, 10) + 1 : 1,
+            pvUID: genUID(),
+            beaconId: beacon
+        });
+
+        document.cookie = 'tracking_session_id=' + mw.config.get('sessionId') + '; expires=' + expireDate.toGMTString() +
+                ';domain=' + mw.config.get('wgCookieDomain') + '; path=' + mw.config.get('wgCookiePath') + ';';
+        document.cookie = 'pv_number=' + mw.config.get('pvNumber') + '; expires=' + expireDate.toGMTString() +
+                '; path=' + path + ';';
+        document.cookie = 'pv_number_global=' + mw.config.get('pvNumberGlobal') + '; expires=' + expireDate.toGMTString() +
+                ';domain=' + mw.config.get('wgCookieDomain') + '; path=' + mw.config.get('wgCookiePath') + ';';
+
+        window.fandomTrackingCookiesSet = true;
+    });
+</script>
+
+<!--[if lt IE 9]><script src="/load.php?lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=hydra&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Storm_Spirit_Counters rootpage-Storm_Spirit skin-hydra action-view ooui-theme-fandomooui wiki-dota2_gamepedia site-dota2-fandom show-ads">	<script type="text/javascript">
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}
+
+			, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-39967852-75', 'auto', 'tracker0', []);
+
+		if (window.cdnprovider) {
+			ga(
+				'tracker0.send',
+				'pageview',
+				{
+					'dimension1':  window.cdnprovider
+				}
+			);
+		} else {
+			ga('tracker0.send', 'pageview');
+		}
+
+	</script>
+
+<div id="netbar">
+	<div class="netbar-flex">
+		<div class="netbar-box left logo"><a href="https://www.gamepedia.com">Gamepedia</a></div>
+				<div class="netbar-box left"><a href="https://support.gamepedia.com/">Help</a></div>
+														<div class="netbar-spacer">&nbsp;</div>
+						<div class="netbar-box right"><a href="/wiki/Special:UserLogin?returnto=Storm+Spirit%2FCounters" id="login-link" class="aqua-link">Sign In</a></div>
+					<div class="netbar-box right"><a href="/wiki/Special:CreateAccount" id="register-link" class="aqua-link">Register</a></div>
+						</div>
+</div>
+	<div id="global-wrapper" class="with-siderail">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="pageWrapper">
+			<div id="content" class="mw-body" role="main" itemprop="articleBody">
+				<a id="top"></a>
+				<div class="banner-notifications-placeholder">
+					<div class="wds-banner-notification__container">
+	
+</div>
+				</div>
+				<div class="mw-indicators mw-body-content">
+</div>
+				<h1 id="firstHeading" class="firstHeading" lang="en" itemprop="name">Storm Spirit/Counters</h1>				<div id="bodyContent" class="mw-body-content">
+					<div id="siteSub" class="noprint">From Dota 2 Wiki</div>					<div id="contentSub"><span class="subpages">&lt; <a href="/wiki/Storm_Spirit" title="Storm Spirit">Storm Spirit</a></span></div>
+										<div id="jump-to-nav" class="mw-jump">
+						Jump to:						<a href="#mw-head">navigation</a>, 						<a href="#p-search">search</a>
+					</div>
+					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6XD44P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="mw-parser-output"><div id="pageTabber" class="page-tabber">
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit" title="Storm Spirit">Hero</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Guide" title="Storm Spirit/Guide">Strategy</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab active-tab">Counters</div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Equipment" title="Storm Spirit/Equipment">Equipment</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Gear" title="Storm Spirit/Gear">Gear</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Talents" title="Storm Spirit/Talents">Talents</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Relics" title="Storm Spirit/Relics">Relics</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Responses" title="Storm Spirit/Responses">Responses</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Sounds" title="Storm Spirit/Sounds">Sounds</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Lore" title="Storm Spirit/Lore">Lore</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Old_Abilities" title="Storm Spirit/Old Abilities">Old Abilities</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Changelogs" title="Storm Spirit/Changelogs">Changelogs</a></div>
+<div class="page-tabber-separator">&#160;</div>
+<div class="page-tabber-tab inactive-tab"><a href="/wiki/Storm_Spirit/Bugs" title="Storm Spirit/Bugs">Known Bugs</a></div>
+<div class="page-tabber-separator tail">&#160;</div>
+</div>
+<div class="ambox" style="border-left: 10px solid mistyrose; margin: auto;">
+<div class="ambox-image"><a href="/wiki/File:Release_Illuminate_icon.png" class="image"><img alt="Release Illuminate icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/dd/Release_Illuminate_icon.png/revision/latest/scale-to-width-down/56?cb=20120726014828" decoding="async" width="56" height="56" /></a></div>
+<div class="ambox-content">
+<div class="ambox-quote"><span><audio hidden="" class="ext-audiobutton" data-volume="1.0"><source src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c4/Vo_keeper_of_the_light_keep_illus_02.mp3/revision/latest?cb=20201013214813" type="audio/mpeg" /><a href="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c4/Vo_keeper_of_the_light_keep_illus_02.mp3/revision/latest?cb=20201013214813">Link</a></audio><a class="ext-audiobutton" data-state="play" title="Play/Pause">▶️</a></span>&#32;<q>Many hands make light work.</q></div>
+<div class="ambox-subject">This article is badly written or needs more information. Please help the community by updating it. Read <a href="/wiki/Dota_2_Wiki:Editing_Guides_and_Counters" title="Dota 2 Wiki:Editing Guides and Counters">this formatting guide</a> first.<b></b></div>
+<div class="ambox-optional"></div>
+<div class="ambox-footnote"></div>
+</div>
+</div>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Bad_against..."><span class="tocnumber">1</span> <span class="toctext">Bad against...</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Others"><span class="tocnumber">1.1</span> <span class="toctext">Others</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Items"><span class="tocnumber">1.2</span> <span class="toctext">Items</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Good_against..."><span class="tocnumber">2</span> <span class="toctext">Good against...</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Others_2"><span class="tocnumber">2.1</span> <span class="toctext">Others</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Works_well_with..."><span class="tocnumber">3</span> <span class="toctext">Works well with...</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Others_3"><span class="tocnumber">3.1</span> <span class="toctext">Others</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Bad_against...">Bad against...</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=1" title="Edit section: Bad against...">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Anti-Mage" title="Anti-Mage"><img alt="Anti-Mage icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8e/Anti-Mage_icon.png/revision/latest/scale-to-width-down/80?cb=20200916215957" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Anti-Mage" title="Anti-Mage">Anti-Mage</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Anti-Mage" title="Anti-Mage"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c1/Mana_Break_icon.png/revision/latest/scale-to-width-down/16?cb=20111005082147" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Anti-Mage#Mana_Break" title="Anti-Mage">Mana Break</a></span> can quickly burn Storm Spirit's mana, preventing him from escaping.</li>
+<li><span class="image-link"><a href="/wiki/Anti-Mage" title="Anti-Mage"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/ce/Blink_%28Anti-Mage%29_icon.png/revision/latest/scale-to-width-down/16?cb=20150908230039" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Anti-Mage#Blink" title="Anti-Mage">Blink</a></span> allows Anti-Mage to catch up to Storm Spirit when he tries to use his Ball Lightning to escape.</li>
+<li><span class="image-link"><a href="/wiki/Anti-Mage" title="Anti-Mage"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fe/Mana_Void_icon.png/revision/latest/scale-to-width-down/16?cb=20111005082150" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Anti-Mage#Mana_Void" title="Anti-Mage">Mana Void</a></span> deals massive damage to Storm Spirit as well as his teammates, as Storm Spirit depletes his mana pool by using Ball Lightning.</li>
+<li><span class="image-link"><a href="/wiki/Anti-Mage" title="Anti-Mage"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/90/Counterspell_icon.png/revision/latest/scale-to-width-down/16?cb=20111005082151" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Anti-Mage#Counterspell" title="Anti-Mage">Counterspell</a></span>'s passive <a href="/wiki/Magic_resistance" title="Magic resistance">magic resistance</a> reduces much of Storm Spirit's magical damage dealt to Anti-Mage, and the active aspect may even make Storm Spirit disable himself.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Doom" title="Doom"><img alt="Doom icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/4/40/Doom_icon.png/revision/latest/scale-to-width-down/80?cb=20160411212104" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Doom" title="Doom">Doom</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Doom" title="Doom"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Doom_ability_icon.png/revision/latest/scale-to-width-down/16?cb=20130123005239" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Doom#Doom" title="Doom">Doom</a></span> prevents Storm Spirit from using all of his abilities and items, rendering Storm Spirit useless in a fight.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Ember_Spirit" title="Ember Spirit"><img alt="Ember Spirit icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/91/Ember_Spirit_icon.png/revision/latest/scale-to-width-down/80?cb=20170417182614" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Ember_Spirit" title="Ember Spirit">Ember Spirit</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Ember_Spirit" title="Ember Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/11/Flame_Guard_icon.png/revision/latest/scale-to-width-down/16?cb=20131114123424" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Ember_Spirit#Flame_Guard" title="Ember Spirit">Flame Guard</a></span> absorbs up to 500 magical damage (700 with Level 10 talents), which helps Ember Spirit survive and react to Storm Spirit's high magical damage.</li>
+<li><span class="image-link"><a href="/wiki/Ember_Spirit" title="Ember Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ad/Searing_Chains_icon.png/revision/latest/scale-to-width-down/16?cb=20131114123122" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Ember_Spirit#Searing_Chains" title="Ember Spirit">Searing Chains</a></span> can root enemies up to 3 seconds, making Storm Spirit unable to escape with Ball Lightning.</li>
+<li><span class="image-link"><a href="/wiki/Ember_Spirit" title="Ember Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a8/Fire_Remnant_icon.png/revision/latest/scale-to-width-down/16?cb=20131114123548" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Ember_Spirit#Fire_Remnant" title="Ember Spirit">Fire Remnant</a></span> deals high magical damage when casting multiple instances at once, granting Ember Spirit the damage to burst Storm Spirit down in the early to mid game.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Night_Stalker" title="Night Stalker"><img alt="Night Stalker icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/15/Night_Stalker_icon.png/revision/latest/scale-to-width-down/80?cb=20160411212027" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Night_Stalker" title="Night Stalker">Night Stalker</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Night_Stalker" title="Night Stalker"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d2/Crippling_Fear_icon.png/revision/latest/scale-to-width-down/16?cb=20111006060544" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Night_Stalker#Crippling_Fear" title="Night Stalker">Crippling Fear</a></span> is a silence that can last up to 8 seconds during night, rendering Storm Spirit tied limited to his items in a fight.</li>
+<li><span class="image-link"><a href="/wiki/Night_Stalker" title="Night Stalker"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5e/Dark_Ascension_icon.png/revision/latest/scale-to-width-down/16?cb=20181125170414" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Night_Stalker#Dark_Ascension" title="Night Stalker">Dark Ascension</a></span> allows Night Stalker to initiate on Storm Spirit across the impassable terrain around the middle lane, rendering Storm vulnerable in the early game and prevent him from snowballing.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Nyx_Assassin" title="Nyx Assassin"><img alt="Nyx Assassin icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fa/Nyx_Assassin_icon.png/revision/latest/scale-to-width-down/80?cb=20160411214454" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Nyx_Assassin" title="Nyx Assassin">Nyx Assassin</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Nyx_Assassin" title="Nyx Assassin"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b6/Mana_Burn_icon.png/revision/latest/scale-to-width-down/16?cb=20120810051513" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Nyx_Assassin#Mana_Burn" title="Nyx Assassin">Mana Burn</a></span> is capable of removing most of Storm Spirit's large mana pool, along with dealing heavy damage and quickly depleting his chances of escaping a gank or fight.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Riki" title="Riki"><img alt="Riki icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7d/Riki_icon.png/revision/latest/scale-to-width-down/80?cb=20160411212958" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Riki" title="Riki">Riki</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Riki" title="Riki"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7a/Smoke_Screen_icon.png/revision/latest/scale-to-width-down/16?cb=20111006070325" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Riki#Smoke_Screen" title="Riki">Smoke Screen</a></span> prevents Storm Spirit from using his abilities once inside the radius. Riki can utilize this ability to allow his team to fight around Smoke Screen so that Storm Spirit cannot spam his spells to proc Overload.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Silencer" title="Silencer"><img alt="Silencer icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9f/Silencer_icon.png/revision/latest/scale-to-width-down/80?cb=20160411215503" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Silencer" title="Silencer">Silencer</a></b></div>
+<ul><li>Silencer's <span class="image-link"><a href="/wiki/Silencer/Old_Abilities" title="Silencer/Old Abilities"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b3/Glaives_of_Wisdom_icon.png/revision/latest/scale-to-width-down/16?cb=20121207112217" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Silencer/Old_Abilities#Intelligence_Steal" title="Silencer/Old Abilities">Intelligence Steal</a></span> can reduce Storm Spirit's damage output if he gets some kills on laning phase.</li>
+<li><span class="image-link"><a href="/wiki/Silencer" title="Silencer"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ae/Last_Word_icon.png/revision/latest/scale-to-width-down/16?cb=20121207111755" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Silencer#Last_Word" title="Silencer">Last Word</a></span> and <span class="image-link"><a href="/wiki/Silencer" title="Silencer"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2d/Global_Silence_icon.png/revision/latest/scale-to-width-down/16?cb=20121207112332" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Silencer#Global_Silence" title="Silencer">Global Silence</a></span> will make Storm Spirit an easy target.</li>
+<li><span class="image-link"><a href="/wiki/Silencer" title="Silencer"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2d/Global_Silence_icon.png/revision/latest/scale-to-width-down/16?cb=20121207112332" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Silencer#Global_Silence" title="Silencer">Global Silence</a></span> can be used to block Storm Spirit from connecting abilities after a Ball Lightning on his targets.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px red;"><a href="/wiki/Techies" title="Techies"><img alt="Techies icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fa/Techies_icon.png/revision/latest/scale-to-width-down/80?cb=20160411215855" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Techies" title="Techies">Techies</a></b></div>
+<ul><li>If Storm Spirit isn't careful, he could fall into a trap set by Techies and another hero acting as bait.</li>
+<li><span class="image-link"><a href="/wiki/Techies" title="Techies"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/de/Stasis_Trap_icon.png/revision/latest/scale-to-width-down/16?cb=20140717031840" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Techies#Stasis_Trap" title="Techies">Stasis Trap</a></span> roots Storm Spirit for 2/3/4/5 seconds, which could be the end of Storm Spirit since he can't use Ball Lightning to escape.</li></ul>
+<h3><span class="mw-headline" id="Others">Others</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=2" title="Edit section: Others">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Any heroes with stuns or silences: <span class="image-link"><a href="/wiki/Death_Prophet" title="Death Prophet"><img alt="Death Prophet minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5d/Death_Prophet_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20121207012909" decoding="async" width="20" height="21" class="noprint pixelart" /></a> <a href="/wiki/Death_Prophet" title="Death Prophet">Death Prophet</a></span>, <span class="image-link"><a href="/wiki/Lion" title="Lion"><img alt="Lion minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Lion_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20130705234838" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Lion" title="Lion">Lion</a></span>, <span class="image-link"><a href="/wiki/Shadow_Shaman" title="Shadow Shaman"><img alt="Shadow Shaman minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7e/Shadow_Shaman_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717001004" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Shadow_Shaman" title="Shadow Shaman">Shadow Shaman</a></span>, <span class="image-link"><a href="/wiki/Skywrath_Mage" title="Skywrath Mage"><img alt="Skywrath Mage minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/84/Skywrath_Mage_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20130417223157" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Skywrath_Mage" title="Skywrath Mage">Skywrath Mage</a></span></li>
+<li>Heroes with mana burn: <span class="image-link"><a href="/wiki/Nyx_Assassin" title="Nyx Assassin"><img alt="Nyx Assassin minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/aa/Nyx_Assassin_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120725222421" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Nyx_Assassin" title="Nyx Assassin">Nyx Assassin</a></span>, <span class="image-link"><a href="/wiki/Invoker" title="Invoker"><img alt="Invoker minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7d/Invoker_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717000939" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Invoker" title="Invoker">Invoker</a></span>, <span class="image-link"><a href="/wiki/Outworld_Destroyer" title="Outworld Destroyer"><img alt="Outworld Destroyer minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d0/Outworld_Destroyer_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717000955" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Outworld_Destroyer" title="Outworld Destroyer">Outworld Destroyer</a></span>, <span class="image-link"><a href="/wiki/Pugna" title="Pugna"><img alt="Pugna minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ab/Pugna_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717000958" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Pugna" title="Pugna">Pugna</a></span></li></ul>
+<h3><span class="mw-headline" id="Items">Items</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=3" title="Edit section: Items">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><span class="image-link"><a href="/wiki/Orchid_Malevolence" title="Orchid Malevolence"><img alt="Orchid Malevolence icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ad/Orchid_Malevolence_icon.png/revision/latest/scale-to-width-down/20?cb=20160530172207" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Orchid_Malevolence" title="Orchid Malevolence">Orchid Malevolence</a></span> (and its upgrade <span class="image-link"><a href="/wiki/Bloodthorn" title="Bloodthorn"><img alt="Bloodthorn icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f4/Bloodthorn_icon.png/revision/latest/scale-to-width-down/20?cb=20160530164313" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Bloodthorn" title="Bloodthorn">Bloodthorn</a></span>) counters Storm Spirit, not only making him completely helpless but also dealing additional damage. Consider buying this on heroes that build a standard orchid and enjoy attacking at the same time.</li>
+<li><span class="image-link"><a href="/wiki/Scythe_of_Vyse" title="Scythe of Vyse"><img alt="Scythe of Vyse icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/54/Scythe_of_Vyse_icon.png/revision/latest/scale-to-width-down/20?cb=20160530173214" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Scythe_of_Vyse" title="Scythe of Vyse">Scythe of Vyse</a></span> will stop a Storm Spirit from doing anything for 3.5 seconds, giving allies enough time to nuke a Storm Spirit down or lock him down further.</li>
+<li><span class="image-link"><a href="/wiki/Rod_of_Atos" title="Rod of Atos"><img alt="Rod of Atos icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/66/Rod_of_Atos_icon.png/revision/latest/scale-to-width-down/20?cb=20160530172945" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Rod_of_Atos" title="Rod of Atos">Rod of Atos</a></span>'s long range <a href="/wiki/Root" title="Root">root</a> will cause difficulty for a Storm Spirit when trying to escape/initiate.</li>
+<li><span class="image-link"><a href="/wiki/Aeon_Disk" title="Aeon Disk"><img alt="Aeon Disk icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2b/Aeon_Disk_icon.png/revision/latest/scale-to-width-down/20?cb=20171101184000" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Aeon_Disk" title="Aeon Disk">Aeon Disk</a></span> is a superb item for supports who want to be able to survive storm spirits initiation.</li></ul>
+<h2><span class="mw-headline" id="Good_against...">Good against...</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=4" title="Edit section: Good against...">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Ancient_Apparition" title="Ancient Apparition"><img alt="Ancient Apparition icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/67/Ancient_Apparition_icon.png/revision/latest/scale-to-width-down/80?cb=20160411220816" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Ancient_Apparition" title="Ancient Apparition">Ancient Apparition</a></b></div>
+<ul><li>Ancient Apparition's only skill to stop Storm Spirit is <a href="/wiki/Ancient_Apparition" title="Ancient Apparition">Cold Feet</a>, which is bad in general when trying to stop a Storm Spirit without any other disable.</li>
+<li>As a fragile support with low Strength gain and no magic resistance, Ancient Apparition is vulnerable to Storm Spirit's combos.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Arc_Warden" title="Arc Warden"><img alt="Arc Warden icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/07/Arc_Warden_icon.png/revision/latest/scale-to-width-down/80?cb=20160411214723" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Arc_Warden" title="Arc Warden">Arc Warden</a></b></div>
+<ul><li>Storm Spirit can hunt down Arc Warden with his Ball Lightning and kill him quickly due to his lack of escape abilities.</li>
+<li>None of his abilities are effective against Storm Spirit, as they can be evaded with Ball Lightning.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Bloodseeker" title="Bloodseeker"><img alt="Bloodseeker icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/56/Bloodseeker_icon.png/revision/latest/scale-to-width-down/80?cb=20160411213712" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Bloodseeker" title="Bloodseeker">Bloodseeker</a></b></div>
+<ul><li>Storm Spirit is invulnerable during Ball Lightning, rendering <span class="image-link"><a href="/wiki/Bloodseeker" title="Bloodseeker"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f4/Rupture_icon.png/revision/latest/scale-to-width-down/16?cb=20111005084357" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Bloodseeker#Rupture" title="Bloodseeker">Rupture</a></span> ineffective against him.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Mars" title="Mars"><img alt="Mars icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9d/Mars_icon.png/revision/latest/scale-to-width-down/80?cb=20190401094550" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Mars" title="Mars">Mars</a></b></div>
+<ul><li>Storm Spirit's abilities all do magical damage, which can bypass <span class="image-link"><a href="/wiki/Mars" title="Mars"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b3/Bulwark_icon.png/revision/latest/scale-to-width-down/16?cb=20190305192113" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Mars#Bulwark" title="Mars">Bulwark</a></span>.</li>
+<li>Ball Lightning can escape through <span class="image-link"><a href="/wiki/Mars" title="Mars"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8c/Arena_Of_Blood_icon.png/revision/latest/scale-to-width-down/16?cb=20190305192107" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Mars#Arena_of_Blood" title="Mars">Arena Of Blood</a></span> and it is easy to dodge <span class="image-link"><a href="/wiki/Mars" title="Mars"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Spear_of_Mars_icon.png/revision/latest/scale-to-width-down/16?cb=20190305192130" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Mars#Spear_of_Mars" title="Mars">Spear of Mars</a></span>.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Monkey_King" title="Monkey King"><img alt="Monkey King icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7b/Monkey_King_icon.png/revision/latest/scale-to-width-down/80?cb=20161222035035" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Monkey_King" title="Monkey King">Monkey King</a></b></div>
+<ul><li>Ball Lightning allows Storm Spirit to destroy a large amount of trees, negating <span class="image-link"><a href="/wiki/Monkey_King" title="Monkey King"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/58/Tree_Dance_icon.png/revision/latest/scale-to-width-down/16?cb=20161211203741" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Monkey_King#Tree_Dance" title="Monkey King">Tree Dance</a></span>. It also makes it easy to avoid <span class="image-link"><a href="/wiki/Monkey_King" title="Monkey King"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4a/Wukong%27s_Command_icon.png/revision/latest/scale-to-width-down/16?cb=20161211203746" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Monkey_King#Wukong.27s_Command" title="Monkey King">Wukong's Command</a></span> and <span class="image-link"><a href="/wiki/Monkey_King" title="Monkey King"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Boundless_Strike_icon.png/revision/latest/scale-to-width-down/16?cb=20161211203721" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Monkey_King#Boundless_Strike" title="Monkey King">Boundless Strike</a></span>.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Phantom_Lancer" title="Phantom Lancer"><img alt="Phantom Lancer icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/81/Phantom_Lancer_icon.png/revision/latest/scale-to-width-down/80?cb=20160411212849" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Phantom_Lancer" title="Phantom Lancer">Phantom Lancer</a></b></div>
+<ul><li>Ball Lightning with or without the Static Remnant talent allows Storm Spirit to destroy Phantom Lancer's illusions quickly. It is also easy to dodge <span class="image-link"><a href="/wiki/Phantom_Lancer" title="Phantom Lancer"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fd/Spirit_Lance_icon.png/revision/latest/scale-to-width-down/16?cb=20120425195445" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Phantom_Lancer#Spirit_Lance" title="Phantom Lancer">Spirit Lance</a></span> with Ball Lightning and makes Spirit Storm very hard to catch even with <span class="image-link"><a href="/wiki/Phantom_Lancer" title="Phantom Lancer"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8a/Phantom_Rush_icon.png/revision/latest/scale-to-width-down/16?cb=20140924015248" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Phantom_Lancer#Phantom_Rush" title="Phantom Lancer">Phantom Rush</a></span>.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Razor" title="Razor"><img alt="Razor icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/66/Razor_icon.png/revision/latest/scale-to-width-down/80?cb=20160411213830" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Razor" title="Razor">Razor</a></b></div>
+<ul><li>Ball Lightning breaks <span class="image-link"><a href="/wiki/Razor" title="Razor"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/01/Static_Link_icon.png/revision/latest/scale-to-width-down/16?cb=20111006070229" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Razor#Static_Link" title="Razor">Static Link</a></span>.</li>
+<li>Razor has no way to catch a slippery Storm Spirit.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Sniper" title="Sniper"><img alt="Sniper icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/51/Sniper_icon.png/revision/latest/scale-to-width-down/80?cb=20160411213053" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Sniper" title="Sniper">Sniper</a></b></div>
+<ul><li>Sniper is very squishy and cannot deal with heroes that jump onto him and lock him down. Storm Spirit closes the gap in a fight against Sniper, and Sniper has no way to escape except for some items.</li>
+<li>Storm Spirit can dodge <span class="image-link"><a href="/wiki/Sniper" title="Sniper"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/16/Assassinate_icon.png/revision/latest/scale-to-width-down/16?cb=20121003222720" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Sniper#Assassinate" title="Sniper">Assassinate</a></span> with a correctly timed Ball Lightning.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Spectre" title="Spectre"><img alt="Spectre icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/ff/Spectre_icon.png/revision/latest/scale-to-width-down/80?cb=20160411214336" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Spectre" title="Spectre">Spectre</a></b></div>
+<ul><li>Ball Lightning is the ultimate counter to Spectre's entire toolkit. With this ability, he can score easy kills on Spectre without her having any means of escape early game, kite her and her <span class="image-link"><a href="/wiki/Spectre" title="Spectre"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b4/Haunt_icon.png/revision/latest/scale-to-width-down/16?cb=20130117030745" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Spectre#Haunt" title="Spectre">Haunt</a></span> illusions when it's later in the game due to her having no form of pseudo-blinks. Furthermore, it is very difficult for Spectre to deal any substantial damage against Storm Spirit with <span class="image-link"><a href="/wiki/Spectre" title="Spectre"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/06/Desolate_icon.png/revision/latest/scale-to-width-down/16?cb=20130117030708" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Spectre#Desolate" title="Spectre">Desolate</a></span>, and without both a <span class="image-link"><a href="/wiki/Manta_Style" title="Manta Style"><img alt="Manta Style icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/84/Manta_Style_icon.png/revision/latest/scale-to-width-down/20?cb=20160530171300" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Manta_Style" title="Manta Style">Manta Style</a></span> and a <span class="image-link"><a href="/wiki/Diffusal_Blade" title="Diffusal Blade"><img alt="Diffusal Blade 1 icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/65/Diffusal_Blade_1_icon.png/revision/latest/scale-to-width-down/20?cb=20160530165804" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Diffusal_Blade" title="Diffusal Blade">Diffusal Blade</a></span> he will always remain on the move. Also, Ball Lightning grants invulnerability, and as Storm Spirit likes to spam that ability, he can mitigate the damage done from <span class="image-link"><a href="/wiki/Spectre" title="Spectre"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a4/Dispersion_icon.png/revision/latest/scale-to-width-down/16?cb=20130117030727" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Spectre#Dispersion" title="Spectre">Dispersion</a></span> and <span class="image-link"><a href="/wiki/Radiance" title="Radiance"><img alt="Radiance (Active) icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/df/Radiance_%28Active%29_icon.png/revision/latest/scale-to-width-down/20?cb=20160530172548" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Radiance" title="Radiance">Radiance</a></span>.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Terrorblade" title="Terrorblade"><img alt="Terrorblade icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/52/Terrorblade_icon.png/revision/latest/scale-to-width-down/80?cb=20160411214652" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Terrorblade" title="Terrorblade">Terrorblade</a></b></div>
+<ul><li>Terrorblade has low mobility, which makes it easy for Storm Spirit to kite him.</li>
+<li>Terrorblade gains a lot of agility and gains very low strength, which makes it easy to burst him down with Storm's magical damage.</li>
+<li>All of Terrorblade's abilities are easily avoided by Storm Spirit as he can simply use Ball Lightning, wasting the duration of <span class="image-link"><a href="/wiki/Terrorblade" title="Terrorblade"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/85/Metamorphosis_icon.png/revision/latest/scale-to-width-down/16?cb=20140128194648" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Terrorblade#Metamorphosis" title="Terrorblade">Metamorphosis</a></span>, <span class="image-link"><a href="/wiki/Terrorblade" title="Terrorblade"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9b/Conjure_Image_icon.png/revision/latest/scale-to-width-down/16?cb=20140128194701" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Terrorblade#Conjure_Image" title="Terrorblade">Conjure Image</a></span>, and <span class="image-link"><a href="/wiki/Terrorblade" title="Terrorblade"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8b/Reflection_icon.png/revision/latest/scale-to-width-down/16?cb=20140128194645" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Terrorblade#Reflection" title="Terrorblade">Reflection</a></span>.</li>
+<li>However, if Storm Spirit's <span class="image-link"><a href="/wiki/Orchid_Malevolence" title="Orchid Malevolence"><img alt="Orchid Malevolence icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ad/Orchid_Malevolence_icon.png/revision/latest/scale-to-width-down/20?cb=20160530172207" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Orchid_Malevolence" title="Orchid Malevolence">Orchid Malevolence</a></span> is on cooldown or if he doesn't have it, Terrorblade can easily use <span class="image-link"><a href="/wiki/Terrorblade" title="Terrorblade"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/15/Sunder_icon.png/revision/latest/scale-to-width-down/16?cb=20140128194635" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Terrorblade#Sunder" title="Terrorblade">Sunder</a></span> and kill a careless Storm Spirit.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Tinker" title="Tinker"><img alt="Tinker icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d1/Tinker_icon.png/revision/latest/scale-to-width-down/80?cb=20160411215201" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Tinker" title="Tinker">Tinker</a></b></div>
+<ul><li>Storm Spirit destroys trees and ignores impassable terrains with Ball Lightning, rendering them dangerous places for Tinker to hide within.</li>
+<li>Ball Lightning disjoints projectile from <span class="image-link"><a href="/wiki/Tinker" title="Tinker"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9c/Heat-Seeking_Missile_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074049" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Tinker#Heat-Seeking_Missile" title="Tinker">Heat-Seeking Missile</a></span> and damage from <span class="image-link"><a href="/wiki/Tinker" title="Tinker"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f5/March_of_the_Machines_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074050" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Tinker#March_of_the_Machines" title="Tinker">March of the Machines</a></span>.</li>
+<li>Electric Vortex prevents Tinker from teleporting away, and Static Remnant and Overload can easily burst him down.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Vengeful_Spirit" title="Vengeful Spirit"><img alt="Vengeful Spirit icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/20/Vengeful_Spirit_icon.png/revision/latest/scale-to-width-down/80?cb=20160411212927" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Vengeful_Spirit" title="Vengeful Spirit">Vengeful Spirit</a></b></div>
+<ul><li>Ball Lightning disjoints an incoming <span class="image-link"><a href="/wiki/Vengeful_Spirit" title="Vengeful Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Magic_Missile_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074534" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Vengeful_Spirit#Magic_Missile" title="Vengeful Spirit">Magic Missile</a></span>, avoids <span class="image-link"><a href="/wiki/Vengeful_Spirit" title="Vengeful Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/3/34/Wave_of_Terror_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074535" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Vengeful_Spirit#Wave_Of_Terror" title="Vengeful Spirit">Wave of Terror</a></span>,  and allows Storm Spirit to easily escape if he ever gets <span class="image-link"><a href="/wiki/Vengeful_Spirit" title="Vengeful Spirit"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/11/Nether_Swap_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074538" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Vengeful_Spirit#Nether_Swap" title="Vengeful Spirit">Nether Swap</a></span>ped.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Viper" title="Viper"><img alt="Viper icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5f/Viper_icon.png/revision/latest/scale-to-width-down/80?cb=20161213040756" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Viper" title="Viper">Viper</a></b></div>
+<ul><li>Ball Lightning allows Storm Spirit to escape through <span class="image-link"><a href="/wiki/Viper" title="Viper"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9b/Viper_Strike_icon.png/revision/latest/scale-to-width-down/16?cb=20111006074746" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Viper#Viper_Strike" title="Viper">Viper Strike</a></span>, wasting Viper's mana.</li>
+<li>It's also very easy to wait out the duration of <span class="image-link"><a href="/wiki/Viper" title="Viper"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/95/Nethertoxin_icon.png/revision/latest/scale-to-width-down/16?cb=20161222013116" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Viper#Nethertoxin" title="Viper">Nethertoxin</a></span>'s <a href="/wiki/Break" title="Break">break</a>.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px chartreuse;"><a href="/wiki/Weaver" title="Weaver"><img alt="Weaver icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/09/Weaver_icon.png/revision/latest/scale-to-width-down/80?cb=20160411214233" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Weaver" title="Weaver">Weaver</a></b></div>
+<ul><li>Ball Lightning allows Storm Spirit to close the gap between him and Weaver in no time. Once locked down with certain items, Weaver is extremely fragile to Storm Spirit and his teammates.</li></ul>
+<h3><span class="mw-headline" id="Others_2">Others</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=5" title="Edit section: Others">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Squishy heroes or heroes without hard disables or silences: <span class="image-link"><a href="/wiki/Shadow_Demon" title="Shadow Demon"><img alt="Shadow Demon minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/3/35/Shadow_Demon_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717001002" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Shadow_Demon" title="Shadow Demon">Shadow Demon</a></span>, <span class="image-link"><a href="/wiki/Shadow_Fiend" title="Shadow Fiend"><img alt="Shadow Fiend minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/00/Shadow_Fiend_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20140924021543" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Shadow_Fiend" title="Shadow Fiend">Shadow Fiend</a></span>, <span class="image-link"><a href="/wiki/Venomancer" title="Venomancer"><img alt="Venomancer minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/9/95/Venomancer_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20131124183639" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Venomancer" title="Venomancer">Venomancer</a></span>, <span class="image-link"><a href="/wiki/Ancient_Apparition" title="Ancient Apparition"><img alt="Ancient Apparition minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/25/Ancient_Apparition_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717000915" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Ancient_Apparition" title="Ancient Apparition">Ancient Apparition</a></span> etc.</li>
+<li>Heroes that rely on their high mobility such as <span class="image-link"><a href="/wiki/Queen_of_Pain" title="Queen of Pain"><img alt="Queen of Pain minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0f/Queen_of_Pain_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717000959" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Queen_of_Pain" title="Queen of Pain">Queen of Pain</a></span>, <span class="image-link"><a href="/wiki/Slark" title="Slark"><img alt="Slark minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1c/Slark_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20121108022931" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Slark" title="Slark">Slark</a></span> and <span class="image-link"><a href="/wiki/Weaver" title="Weaver"><img alt="Weaver minimap icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d5/Weaver_minimap_icon.png/revision/latest/scale-to-width-down/20?cb=20120717001021" decoding="async" width="20" height="20" class="noprint pixelart" /></a> <a href="/wiki/Weaver" title="Weaver">Weaver</a></span> can be constantly engaged against due to your excellent ability to chase over any terrain. Make sure you carry <a href="/wiki/True_sight" class="mw-redirect" title="True sight">true sight</a> items (such as <span class="image-link"><a href="/wiki/Dust_of_Appearance" title="Dust of Appearance"><img alt="Dust of Appearance icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Dust_of_Appearance_icon.png/revision/latest/scale-to-width-down/20?cb=20160530170133" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Dust_of_Appearance" title="Dust of Appearance">Dust of Appearance</a></span> or <span class="image-link"><a href="/wiki/Gem_of_True_Sight" title="Gem of True Sight"><img alt="Gem of True Sight icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1d/Gem_of_True_Sight_icon.png/revision/latest/scale-to-width-down/20?cb=20160530170545" decoding="async" width="20" height="15" class="noprint" /></a> <a href="/wiki/Gem_of_True_Sight" title="Gem of True Sight">Gem of True Sight</a></span>) for invisible heroes that could potentially escape your clutches.</li></ul>
+<h2><span class="mw-headline" id="Works_well_with...">Works well with...</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=6" title="Edit section: Works well with...">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px skyblue;"><a href="/wiki/Keeper_of_the_Light" title="Keeper of the Light"><img alt="Keeper of the Light icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b9/Keeper_of_the_Light_icon.png/revision/latest/scale-to-width-down/80?cb=20160411215721" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Keeper_of_the_Light" title="Keeper of the Light">Keeper of the Light</a></b></div>
+<ul><li>In the early game, the occasional cast of <span class="image-link"><a href="/wiki/Keeper_of_the_Light" title="Keeper of the Light"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c0/Chakra_Magic_icon.png/revision/latest/scale-to-width-down/16?cb=20120725222156" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Keeper_of_the_Light#Chakra_Magic" title="Keeper of the Light">Chakra Magic</a></span> can top up Storm Spirit's mana pool, and allow him to leverage one or two more spells in between runes.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px skyblue;"><a href="/wiki/Omniknight" title="Omniknight"><img alt="Omniknight icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e2/Omniknight_icon.png/revision/latest/scale-to-width-down/80?cb=20160411210119" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Omniknight" title="Omniknight">Omniknight</a></b></div>
+<ul><li><span class="image-link"><a href="/wiki/Omniknight" title="Omniknight"><img alt="" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fa/Heavenly_Grace_icon.png/revision/latest/scale-to-width-down/16?cb=20120801075126" decoding="async" width="16" height="16" class="noprint" /></a> <a href="/wiki/Omniknight#Heavenly_Grace" title="Omniknight">Heavenly Grace</a></span> allows you to jump in and wreak havoc on enemies with little fear of being disabled. Omniknight's heal keeps Storm Spirit alive and can damage enemies Storm Spirit engages with his pull.</li></ul>
+<div style="margin:7px 5px 0px; vertical-align:center; text-align:center; display:inline-block; line-height:normal; width:80px;">
+<div style="margin-bottom:5px; box-shadow:0px 0px 2px 4px skyblue;"><a href="/wiki/Lifestealer" title="Lifestealer"><img alt="Lifestealer icon.png" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2b/Lifestealer_icon.png/revision/latest/scale-to-width-down/80?cb=20160411211952" decoding="async" width="80" height="45" /></a></div></div> <div style="font-size:12pt;display:inline;"><b><a href="/wiki/Lifestealer" title="Lifestealer">Lifestealer</a></b></div>
+<ul><li>The Lifestealer bomb combo can come in handy in a game, as Lifestealer and Overload make for a highly damaging combo against lone targets and is the perfect way for the otherwise immobile Lifestealer to engage in melee combat.</li></ul>
+<h3><span class="mw-headline" id="Others_3">Others</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/wiki/Storm_Spirit/Counters?action=edit&amp;section=7" title="Edit section: Others">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Tanky intiators that can disable groups of enemies and bear the brunt of spells and disables, allowing you to zip in to weakened or squishy targets and kill them without fear of rebuttal: Clockwerk, Centaur Warrunner, Tidehunter.</li></ul>
+<p><br />
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20210418191946
+Cache expiry: 1209600
+Dynamic content: false
+CPU time usage: 0.343 seconds
+Real time usage: 0.484 seconds
+Preprocessor visited node count: 2424/1000000
+Preprocessor generated node count: 0/1000000
+Post‐expand include size: 34480/2097152 bytes
+Template argument size: 3312/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 475/5000000 bytes
+Lua time usage: 0.081/7.000 seconds
+Lua memory usage: 1.67 MB/50 MB
+ExtLoops count: 0
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  311.664      1 -total
+ 40.74%  126.983     44 Template:A
+ 16.60%   51.744     25 Template:Hero_label
+ 16.10%   50.181     15 Template:H
+ 13.82%   43.069     11 Template:I
+  6.34%   19.775      1 Template:Tabs_Hero
+  3.34%   10.408      1 Template:Help_wanted
+  2.57%    8.016      1 Template:Ambox
+-->
+
+<!-- Saved in parser cache with key prod:dota2_gamepedia:pcache:idhash:247308-0!canonical and timestamp 20210418191945 and revision id 2093351
+ -->
+</div></div>						<div class="printfooter">
+							Retrieved from "<a dir="ltr" href="https://dota2.fandom.com/wiki/Storm_Spirit/Counters?oldid=2093351">https://dota2.fandom.com/wiki/Storm_Spirit/Counters?oldid=2093351</a>"						</div>
+						<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Help_wanted" title="Category:Help wanted">Help wanted</a></li><li><a href="/wiki/Category:Counters" title="Category:Counters">Counters</a></li></ul></div></div>					<div class="visualClear"></div>
+									</div>
+								<div id="siderail_dota2_gamepedia">
+					<div id='middlemrec_dota2_gamepedia'><a href='https://www.gamepedia.com/PRO?utm_source=GPPromo&utm_medium=Rail'><img src='https://gamepedia.cursecdn.com/commons_hydra/c/c2/Pro_Promorail_v2.jpg'></a></div>				</div>
+				<div class="visualClear"></div>
+								</div>
+			<div id="mw-navigation">
+				<h2>Navigation menu</h2>
+				<div id="mw-head">
+										<div id="left-navigation">
+											<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Storm_Spirit/Counters" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="/wiki/Talk:Storm_Spirit/Counters?action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-sharing" role="navigation" class="vectorMenu" aria-labelledby="p-sharing-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-sharing-label" />
+						<h3 id="p-sharing-label"><span>Share</span></h3>
+						<div class="menu">
+							
+				<div id="socialIconImages">
+					<a href="https://twitter.com/intent/tweet?text=Check+out+Storm+Spirit%2FCounters+on+Dota+2+Wiki+--&amp;via=CurseGamepedia&amp;url=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters" target="_blank"><img src="/extensions-ucp/Social/images/social/twitter.svg"/></a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters" target="_blank"><img src="/extensions-ucp/Social/images/social/facebook.svg"/></a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters&amp;title=Check+out+Storm+Spirit%2FCounters+on+Dota+2+Wiki+via+%40CurseGamepedia%3A+https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters" target="_blank"><img src="/extensions-ucp/Social/images/social/reddit.svg"/></a><a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters&amp;name=Dota+2+Wiki&amp;description=Check+out+Storm+Spirit%2FCounters+on+Dota+2+Wiki+via+%3Ca+href%3D%22https%3A%2F%2Ftwitter.com%2FCurseGamepedia%22+target%3D%22_blank%22%3E%40CurseGamepedia%3C%2Fa%3E%3A+https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters" target="_blank"><img src="/extensions-ucp/Social/images/social/tumblr.svg"/></a><a href="https://vk.com/share.php?url=https%3A%2F%2Fdota2.fandom.com%2Fwiki%2FStorm_Spirit%2FCounters" target="_blank"><img src="/extensions-ucp/Social/images/social/vk.svg"/></a>
+				</div>
+						</div>
+					</div>
+										</div>
+					<div id="right-navigation">
+											<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Storm_Spirit/Counters">View</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/wiki/Storm_Spirit/Counters?action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li><li id="ca-history" class="collapsible"><span><a href="/wiki/Storm_Spirit/Counters?action=history" title="Past revisions of this page [h]" accesskey="h">History</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Dota 2 Wiki" title="Search Dota 2 Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+										</div>
+				</div>
+				<div id="mw-panel">
+					<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Dota_2_Wiki" title="Visit the main page - Dota 2 Wiki"></a></div>
+							<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/wiki/Dota_2_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-Community-portal"><a href="/wiki/Dota_2_Wiki:Community_portal">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-noticeboard"><a href="/wiki/Dota_2_Wiki:Admin_noticeboard">Admin noticeboard</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Useful_pages" aria-labelledby="p-Useful_pages-label">
+			<h3 id="p-Useful_pages-label">Useful pages</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Heroes"><a href="/wiki/Heroes">Heroes</a></li><li id="n-Items"><a href="/wiki/Items">Items</a></li><li id="n-Mechanics"><a href="/wiki/Mechanics">Mechanics</a></li><li id="n-Talents"><a href="/wiki/Talents">Talents</a></li><li id="n-Creeps"><a href="/wiki/Creeps">Creeps</a></li><li id="n-Buildings"><a href="/wiki/Buildings">Buildings</a></li><li id="n-Runes"><a href="/wiki/Runes">Runes</a></li><li id="n-Minimap"><a href="/wiki/Minimap">Minimap</a></li><li id="n-Game-modes"><a href="/wiki/Game_Modes">Game modes</a></li><li id="n-Events"><a href="/wiki/Events">Events</a></li><li id="n-Patches"><a href="/wiki/Patches">Patches</a></li><li id="n-Versions"><a href="/wiki/Versions">Versions</a></li><li id="n-Console"><a href="/wiki/List_of_Console_Commands">Console</a></li><li id="n-Hero-stats-table"><a href="/wiki/Table_of_hero_attributes">Hero stats table</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Cosmetics" aria-labelledby="p-Cosmetics-label">
+			<h3 id="p-Cosmetics-label">Cosmetics</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Equipment"><a href="/wiki/Equipment">Equipment</a></li><li id="n-Gems"><a href="/wiki/Gems">Gems</a></li><li id="n-Couriers"><a href="/wiki/Custom_Courier">Couriers</a></li><li id="n-Wards"><a href="/wiki/Custom_Wards">Wards</a></li><li id="n-HUD-Skins"><a href="/wiki/HUD_Skins">HUD Skins</a></li><li id="n-Music"><a href="/wiki/Music">Music</a></li><li id="n-Emoticons"><a href="/wiki/Emoticons">Emoticons</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Storm_Spirit/Counters" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Storm_Spirit/Counters" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/wiki/Storm_Spirit/Counters?printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/wiki/Storm_Spirit/Counters?oldid=2093351" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/wiki/Storm_Spirit/Counters?action=info" title="More information about this page">Page information</a></li><li id="t-cargopagevalueslink"><a href="/wiki/Storm_Spirit/Counters?action=pagevalues" rel="cargo-pagevalues">Page values</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Wiki_Links" aria-labelledby="p-Wiki_Links-label">
+			<h3 id="p-Wiki_Links-label">Wiki Links</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Discussion"><a href="/wiki/Dota_2_Wiki:Discussion">Discussion</a></li><li id="n-Twitter"><a href="https://twitter.com/dota2wiki" rel="nofollow" target="_blank">Twitter</a></li><li id="n-Steam-Group"><a href="http://steamcommunity.com/groups/dota2wiki" rel="nofollow" target="_blank">Steam Group</a></li><li id="n-Translate"><a href="/wiki/Help:Translation">Translate</a></li><li id="n-Discord"><a href="https://discord.gg/AHt5MXZ" rel="nofollow" target="_blank">Discord</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Artifact" aria-labelledby="p-Artifact-label">
+			<h3 id="p-Artifact-label">Artifact</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Artifact-Wiki"><a href="https://artifact.gamepedia.com/Artifact:_The_Dota_Card_Game_Wiki" target="_blank">Artifact Wiki</a></li><li id="n-Heroes"><a href="https://artifact.gamepedia.com/Heroes" target="_blank">Heroes</a></li><li id="n-Items"><a href="https://artifact.gamepedia.com/Items" target="_blank">Items</a></li><li id="n-Spells"><a href="https://artifact.gamepedia.com/Spells" target="_blank">Spells</a></li><li id="n-Creeps"><a href="https://artifact.gamepedia.com/Creeps" target="_blank">Creeps</a></li><li id="n-Mechanics"><a href="https://artifact.gamepedia.com/Mechanics" target="_blank">Mechanics</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Official_Links" aria-labelledby="p-Official_Links-label">
+			<h3 id="p-Official_Links-label">Official Links</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Blog"><a href="http://blog.dota2.com" rel="nofollow" target="_blank">Blog</a></li><li id="n-Store"><a href="http://www.dota2.com/store/" rel="nofollow" target="_blank">Store</a></li><li id="n-Steam-Hub"><a href="http://steamcommunity.com/app/570" rel="nofollow" target="_blank">Steam Hub</a></li><li id="n-Twitter"><a href="http://twitter.com/#!/dota2" rel="nofollow" target="_blank">Twitter</a></li><li id="n-Facebook"><a href="http://www.facebook.com/pages/Dota-2/106876872711112" rel="nofollow" target="_blank">Facebook</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Gamepedia" aria-labelledby="p-Gamepedia-label">
+			<h3 id="p-Gamepedia-label">Gamepedia</h3>
+			<div class="body">
+								<ul>
+					<li id="n-gamepedia-support"><a href="https://gamepedia.zendesk.com" rel="nofollow" target="_blank">Gamepedia support</a></li><li id="n-bad-ad"><a href="https://community.fandom.com/wiki/Help%3ABad_advertisements" target="_blank">Report a bad ad</a></li><li id="n-gamepedia-help"><a href="https://help.gamepedia.com/">Help Wiki</a></li><li id="n-gamepedia-contact"><a href="https://help.gamepedia.com/How_to_contact_Gamepedia">Contact us</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Partners" aria-labelledby="p-Partners-label">
+			<h3 id="p-Partners-label">Partners</h3>
+			<div class="body">
+								<ul>
+					<li id="n-PlayDota-Reborn"><a href="https://forums.playdota.com/" rel="nofollow" target="_blank">PlayDota Reborn</a></li><li id="n-Dota-2-Reddit"><a href="https://www.reddit.com/r/DotA2" rel="nofollow" target="_blank">Dota 2 Reddit</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">In other languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-ru"><a href="https://dota2.fandom.com/ru/wiki/Storm_Spirit/%D0%9F%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B5" title="Storm Spirit/Противостоящие – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-socialProfiles" aria-labelledby="p-socialProfiles-label">
+			<h3 id="p-socialProfiles-label"></h3>
+			<div class="body">
+				<div class='socialSidebar'>
+						<script type='text/javascript'>
+							document.getElementById('p-socialProfiles').className = 'portal persistent';
+						</script>
+						<div class='socialLink twitter'><a href="https://twitter.com/dota2wiki" target="_blank"><img src="/extensions-ucp/Social/images/social/twitter.svg" width="32"/></a></div>
+					</div>			</div>
+		</div>
+					</div>
+			</div>
+						<div id="footer" role="contentinfo">
+								<ul id="footer-info">
+										<li id="footer-info-lastmod"> This page was last edited on 4 April 2021, at 07:21.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="https://www.fandom.com/licensing">CC BY-NC-SA 3.0</a> unless otherwise noted.<br/>Game content and materials are trademarks and copyrights of their respective publisher and its licensors.  All rights reserved.<br />
+This site is a part of Fandom, Inc. and is not affiliated with the game publisher.</li>
+										</ul>
+									<ul id="footer-places">
+										<li id="footer-places-about"><a href="/wiki/Dota_2_Wiki:About" title="Dota 2 Wiki:About">About Dota 2 Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Dota_2_Wiki:General_disclaimer" title="Dota 2 Wiki:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="https://dota2.fandom.com/wiki/Storm_Spirit/Counters?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+										</ul>
+														<ul id="footer-icons" class="noprint">
+												<li id="footer-copyrightico">
+							<a href="https://www.fandom.com/licensing" target="_blank"><img src="//i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="CC BY-NC-SA 3.0" width="88" height="31"/></a>						</li>
+													<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/" target="_blank"><img src="/resources-ucp/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources-ucp/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources-ucp/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+												</ul>
+									<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div id="footer-push"></div>
+	</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.343","walltime":"0.484","ppvisitednodes":{"value":2424,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1000000},"postexpandincludesize":{"value":34480,"limit":2097152},"templateargumentsize":{"value":3312,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":475,"limit":5000000},"timingprofile":["100.00%  311.664      1 -total"," 40.74%  126.983     44 Template:A"," 16.60%   51.744     25 Template:Hero_label"," 16.10%   50.181     15 Template:H"," 13.82%   43.069     11 Template:I","  6.34%   19.775      1 Template:Tabs_Hero","  3.34%   10.408      1 Template:Help_wanted","  2.57%    8.016      1 Template:Ambox"]},"scribunto":{"limitreport-timeusage":{"value":"0.081","limit":"7.000"},"limitreport-memusage":{"value":1755182,"limit":52428800},"limitreport-logs":"No cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\nNo cached version found. Storing.\n"},"loops":{"limitreport-count-unlimited":[0]},"cachereport":{"timestamp":"20210418191946","ttl":1209600,"transientcontent":false}}});});</script>
+<script defer="" src="https://www.fastly-insights.com/static/scout.js?k=17272cd8-82ee-4eb5-b5a3-b3cd5403f7c5"></script>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,700&amp;display=swap&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+<div id="footer-and-prefooter">
+	<div id="gamepedia-footer">
+		<div class="footer-wrapper-gp">
+			<div class="footer-box footer-logo">
+				<a href="https://www.gamepedia.com">
+					<img src="/skins-ucp/Hydra/images/footer/premium-logo-light.svg" class="footer-gp-logo"/>
+				</a>
+			</div>
+			<div class="footer-box footer-social">
+				<ul class="social">
+					<li>
+						<a href="https://www.facebook.com/CurseGamepedia" title="Facebook"><svg width="10" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M9.364531 3.5096969H7.651507c-1.370419 0-1.598822.7261441-1.598822 1.6943364v2.2994565h3.311846l-.342605 3.6307209H6.281088v9.3188503H2.85504v-9.3188503H0V7.5034898h2.85504V4.8409612C2.85504 1.8153604 4.568064 0 7.080499 0c1.142016 0 2.16983.121024 2.512435.121024v3.3886729h-.228403z" fill-rule="evenodd"/></svg></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/CurseGamepedia" title="Twitter"><svg width="23" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M19.822727 4.2972696v.5729693c0 5.8729351-4.518416 12.6053241-12.826471 12.6053241-2.623596 0-4.955681-.7162116-6.996256-2.0053925.437266 0 .728777.1432423 1.166043.1432423 2.040575 0 4.081149-.7162116 5.684458-1.8621501-1.894819 0-3.643883-1.2891809-4.226905-3.151331.291511 0 .583022.1432423.874532.1432423.437266 0 .437266 0 1.020288-.1432423-2.186331-.429727-4.08115-2.2918772-4.08115-4.440512 0 .429727 1.603309.429727 2.332086.5729693C1.603309 5.8729351.874532 4.5837542.874532 3.0080887c0-.8594539.291511-1.5756655.728777-2.2918771 2.18633 2.7216041 5.684458 4.4405119 9.328342 4.7269965-.145756-.4297269-.145756-.7162116-.145756-1.0026962C10.785895 2.0053925 12.82647 0 15.304311 0c1.311798 0 2.477841.429727 3.352373 1.4324232 1.020287-.2864846 1.894819-.5729693 2.769351-1.1459386-.437266 1.1459386-1.166042 1.8621502-1.894819 2.4351195.874532-.1432423 1.894819-.429727 2.623596-.7162116-.728777.8594539-1.457553 1.7189078-2.332085 2.2918771z" fill-rule="evenodd"/></svg></a>
+					</li>
+					<li>
+						<a href="https://youtube.com/CurseEntertainment" title="Youtube"><svg width="24" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M23.8 3.6s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1C17 0 12 0 12 0S7 0 3.6.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 5.5 0 7.5v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V7.4c0-1.9-.2-3.8-.2-3.8zM9.5 11.5V4.8L16 8.2l-6.5 3.3z" fill-rule="evenodd"/></svg></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-box footer-links mobile-split">
+				<ul>
+					<li>
+						<a href="https://support.gamepedia.com">Support</a>
+					</li>
+					<li>
+						<a href="https://help.gamepedia.com/How_to_contact_Gamepedia">Contact</a>
+					</li>
+					<li>
+						<a href="https://www.gamepedia.com/pro">PRO</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer id="curse-footer" role="complimentary" class="hide-ads">
+		<div class="footer-wrapper">
+						<div class="footer-box footer-logo">
+				<a href="https://www.fandom.com" target="_blank"><img src="/skins-ucp/Hydra/images/footer/fandom-logo.svg" /></a>
+			</div>
+			<div class="footer-box footer-properties">
+				<h2>Explore Properties</h2>
+				<ul class="properties mobile-split">
+					<li><a href="https://www.fandom.com">Fandom</a></li>
+					<li><a href="https://www.gamepedia.com">Gamepedia</a></li>
+					<li><a href="https://www.dndbeyond.com">D&amp;D Beyond</a></li>
+					<li><a href="https://www.muthead.com">Muthead</a></li>
+					<li><a href="https://www.futhead.com">Futhead</a></li>
+								</ul>
+			</div>
+			<div class="footer-box footer-social">
+				<h2>Follow Us</h2>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/getfandom" title="Facebook"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="24" viewBox="0 0 11 24"><path d="M10.7 4L8.8 4C7.2 4 6.9 4.9 6.9 6L6.9 8.6 10.7 8.6 10.3 12.8 7.2 12.8 7.2 23.5 3.3 23.5 3.3 12.8 0 12.8 0 8.6 3.3 8.6 3.3 5.6C3.3 2.1 5.2 0 8.1 0 9.4 0 10.6 0.1 11 0.1L11 4 10.7 4Z"/></svg></a></li>
+					<li><a href="https://twitter.com/getfandom" title="Twitter"><svg width="24" height="19" xmlns="http://www.w3.org/2000/svg"><path d="M20.957 4.543v.606c0 6.209-4.777 13.327-13.56 13.327-2.774 0-5.24-.758-7.397-2.12.462 0 .77.15 1.233.15 2.157 0 4.314-.756 6.01-1.968-2.004 0-3.853-1.363-4.47-3.332.309 0 .617.152.925.152.463 0 .463 0 1.079-.152C2.466 10.752.462 8.783.462 6.512c0 .454 1.695.454 2.466.606C1.695 6.209.925 4.846.925 3.18c0-.908.308-1.666.77-2.423 2.311 2.878 6.01 4.695 9.862 4.998-.154-.455-.154-.758-.154-1.06C11.403 2.12 13.56 0 16.18 0c1.387 0 2.62.454 3.544 1.514 1.079-.302 2.004-.605 2.928-1.211-.462 1.211-1.233 1.969-2.003 2.574a14.785 14.785 0 0 0 2.774-.757c-.77.909-1.541 1.817-2.466 2.423z" fill-rule="evenodd"/></svg></a></li>
+					<li><a href="https://www.youtube.com/fandomentertainment" title="Youtube"><svg width="24" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M23.8 3.6s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1C17 0 12 0 12 0S7 0 3.6.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 5.5 0 7.5v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V7.4c0-1.9-.2-3.8-.2-3.8zM9.5 11.5V4.8L16 8.2l-6.5 3.3z" fill-rule="evenodd" /></svg></a></li>
+					<li><a href="https://www.instagram.com/getfandom/" title="Instagram"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.510373 0H2.406639C1.078838 0 0 1.0788382 0 2.3236515v15.1867219c0 1.3278009 1.078838 2.406639 2.406639 2.406639h15.186722C18.921162 19.9170124 20 18.8381743 20 17.593361V2.3236515C19.917012 1.0788382 18.838174 0 17.510373 0zm-2.572614 2.4896266h1.659751c.497926 0 .829876.3319502.829876.8298755v1.659751c0 .4979253-.33195.8298755-.829876.8298755h-1.659751c-.497925 0-.829875-.3319502-.829875-.8298755v-1.659751c0-.4979253.33195-.8298755.829875-.8298755zM9.958506 6.1410788c2.074689 0 3.817428 1.7427386 3.817428 3.8174274s-1.742739 3.8174274-3.817428 3.8174274c-2.074689 0-3.817427-1.7427386-3.817427-3.8174274s1.742738-3.8174274 3.817427-3.8174274zm6.639004 11.2863071H3.319502c-.497925 0-.829875-.3319502-.829875-.8298755V8.2987552h1.659751c-.248963.9128631-.331951 1.9917012-.082988 2.9875519.497925 2.3236514 2.406639 4.1493775 4.73029 4.5643153 3.900415.746888 7.302905-2.1576763 7.302905-5.8921162 0-.5809128-.165975-1.1618257-.248963-1.659751h1.659751v8.2987552c-.082987.4979253-.414937.8298755-.912863.8298755z" fill-rule="evenodd" /></svg></a></li>
+					<li><a href="https://www.linkedin.com/company/fandomwikia/" title="LinkedIn"><svg width="19" height="19" xmlns="http://www.w3.org/2000/svg"><path d="M3.859375 19h-3.5625V5.9375h3.5625V19zM2.078125 4.43175C.931 4.43175 0 3.493625 0 2.337S.931.24225 2.078125.24225 4.15625 1.180375 4.15625 2.337s-.929812 2.09475-2.078125 2.09475zM18.109375 19h-3.5625v-6.65475c0-3.9995-4.75-3.6966875-4.75 0V19h-3.5625V5.9375h3.5625v2.0959375c1.65775-3.070875 8.3125-3.2976875 8.3125 2.94025V19z" fill-rule="nonzero" /></svg></a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-overview">
+				<h2>Overview</h2>
+				<ul class="mobile-split">
+					<li><a href="https://www.fandom.com/about">About</a></li>
+					<li><a href="https://www.fandom.com/careers">Careers</a></li>
+					<li><a href="https://www.fandom.com/press">Press</a></li>
+					<li><a href="https://www.fandom.com/about#contact">Contact Us</a></li>
+					<li><a href="https://www.fandom.com/terms-of-use">Terms of Use</a></li>
+					<li><a href="https://www.fandom.com/privacy-policy">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-community">
+				<h2>Community</h2>
+				<ul class="mobile-split">
+					<li><a href="https://community.fandom.com/wiki/Community_Central">Community Central</a></li>
+					<li><a href="https://fandom.zendesk.com/hc/en-us">Support</a></li>
+					<li><a href="https://community.fandom.com/wiki/Help:Contents">Help</a></li>
+					<li><a href="https://www.gamepedia.com/do-not-sell-my-info">Do Not Sell My Info</a></li>
+				</ul>
+			</div>
+			<div class="footer-box footer-advertise">
+				<h2>Advertise</h2>
+				<ul class="mobile-split">
+					<li><a href="https://www.fandom.com/mediakit">Media Kit</a></li>
+					<li><a href="https://www.fandom.com/mediakit#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-post">
+			Dota 2 Wiki is a Fandom Gaming Community.			<hr />
+			<span class="footer-post-mobile"><a href="https://dota2.fandom.com/wiki/Storm_Spirit/Counters?mobileaction=toggle_view_mobile">View Mobile Site</a></span>
+		</div>
+	</footer>
+</div>
+
+<div id='cdm-zone-end'></div>
+			<script type="text/javascript">
+				window.genreCategory = '';
+				window.wikiTags = null;
+			</script><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height: 0px; width: 0px; position: absolute; overflow: hidden;" aria-hidden="true"><defs><path id="flag-small" d="M3 11h10.586l-3.293-3.293a.999.999 0 0 1 0-1.414L13.586 3H3v8zm-1 7a1 1 0 0 1-1-1V1a1 1 0 0 1 2 0h13a1.002 1.002 0 0 1 .707 1.707L12.414 7l4.293 4.293A1 1 0 0 1 16 13H3v4a1 1 0 0 1-1 1z"/><path id="alert-small" d="M2.618 15.995L9 3.199l6.382 12.796H2.618zm15.276.554l-8-16.04C9.555-.17 8.445-.17 8.105.51l-8 16.04A1.003 1.003 0 0 0 1 18h16c.347 0 .668-.18.85-.476a.998.998 0 0 0 .044-.975zM8 7.975V9.98a1 1 0 1 0 2 0V7.975a1 1 0 1 0-2 0m1.71 4.3c-.05-.04-.1-.09-.16-.12a.567.567 0 0 0-.17-.09.61.61 0 0 0-.19-.06.999.999 0 0 0-.9.27c-.09.101-.16.201-.21.33a1.01 1.01 0 0 0-.08.383c0 .26.11.52.29.711.19.18.44.291.71.291.06 0 .13-.01.19-.02a.635.635 0 0 0 .19-.06.59.59 0 0 0 .17-.09c.06-.04.11-.08.16-.12.18-.192.29-.452.29-.712 0-.132-.03-.261-.08-.382a.94.94 0 0 0-.21-.33"/><path id="close-tiny" d="M7.426 6.001l4.278-4.279A1.008 1.008 0 1 0 10.278.296L6 4.574 1.723.296A1.008 1.008 0 1 0 .295 1.722l4.278 4.28-4.279 4.277a1.008 1.008 0 1 0 1.427 1.426L6 7.427l4.278 4.278a1.006 1.006 0 0 0 1.426 0 1.008 1.008 0 0 0 0-1.426L7.425 6.001z"/></defs><symbol id="wds-company-logo-fandom" viewbox="0 0 164 35"><g fill="none" fill-rule="evenodd"><path d="M32.003 16.524c0 .288-.115.564-.32.768L18.3 30.712c-.226.224-.454.324-.738.324-.292 0-.55-.11-.77-.325l-.943-.886a.41.41 0 0 1-.01-.59l15.45-15.46c.262-.263.716-.078.716.29v2.46zm-17.167 10.12l-.766.685a.642.642 0 0 1-.872-.02L3.01 17.362c-.257-.25-.4-.593-.4-.95v-1.858c0-.67.816-1.007 1.298-.536l10.814 10.56c.188.187.505.57.505 1.033 0 .296-.068.715-.39 1.035zM5.73 7.395L9.236 3.93a.421.421 0 0 1 .592 0l11.736 11.603a3.158 3.158 0 0 1 0 4.5l-3.503 3.462a.423.423 0 0 1-.59 0L5.732 11.89a3.132 3.132 0 0 1-.937-2.25c0-.85.332-1.65.935-2.246zm13.89 1.982l3.662-3.62a3.232 3.232 0 0 1 2.737-.897c.722.098 1.378.47 1.893.978l3.708 3.667a.41.41 0 0 1 0 .585l-5.64 5.576a.419.419 0 0 1-.59 0l-5.77-5.704a.411.411 0 0 1 0-.585zm14.56-.687L26.014.475a.869.869 0 0 0-1.228-.002L18.307 6.94c-.5.5-1.316.5-1.82.004l-6.48-6.4A.87.87 0 0 0 8.793.542L.447 8.67C.16 8.95 0 9.33 0 9.727v7.7c0 .392.158.77.44 1.048l16.263 16.072a.87.87 0 0 0 1.22 0l16.25-16.073c.28-.278.438-.655.438-1.048V9.73c0-.39-.153-.763-.43-1.04z" fill="#00D6D6"/><path d="M62.852 20.51l2.58-6.716a.468.468 0 0 1 .87 0l2.58 6.717h-6.03zm5.856-12.428c-.184-.48-.65-.8-1.17-.8h-3.342c-.52 0-.986.32-1.17.8l-7.083 18.5c-.21.552.2 1.14.796 1.14h2.753c.353 0 .67-.215.796-.542l.738-1.922a.849.849 0 0 1 .795-.542h8.088a.85.85 0 0 1 .796.542l.74 1.922c.125.327.44.543.795.543h2.754a.843.843 0 0 0 .796-1.14l-7.082-18.5zm93.504-.8h-2.715a1.86 1.86 0 0 0-1.677 1.047l-5.393 11.162-5.393-11.163a1.858 1.858 0 0 0-1.677-1.047h-2.715a.889.889 0 0 0-.893.883V26.84c0 .487.4.883.892.883h2.608a.889.889 0 0 0 .893-.883v-9.686l4.945 10.072c.15.304.46.497.803.497h1.073a.893.893 0 0 0 .803-.497l4.945-10.072v9.686c0 .487.4.883.894.883h2.608a.889.889 0 0 0 .893-.883V8.166c0-.487-.4-.883-.893-.883zm-106.972 8.8h-8.63V11.49h10.918a.88.88 0 0 0 .83-.578l.888-2.464a.872.872 0 0 0-.83-1.163h-15.18c-.486 0-.88.39-.88.87v18.7c0 .48.394.87.88.87h2.492c.486 0 .88-.39.88-.87V20.29h7.743a.88.88 0 0 0 .83-.578l.89-2.464a.872.872 0 0 0-.83-1.163zm51.76 7.61h-3.615V11.315H107c3.828 0 6.41 2.517 6.41 6.188 0 3.672-2.582 6.19-6.41 6.19zm-.124-16.41h-7.128c-.486 0-.88.39-.88.872v18.698c0 .48.394.87.88.87h7.128c6.453 0 10.912-4.44 10.912-10.16v-.117c0-5.72-4.46-10.162-10.912-10.162zm-11.947.03h-2.642a.87.87 0 0 0-.876.866v12.36l-8.755-12.72a1.242 1.242 0 0 0-1.023-.535H78.32a.873.873 0 0 0-.876.867v18.706c0 .48.393.867.877.867h2.64a.872.872 0 0 0 .878-.867V14.71l8.608 12.478c.23.334.613.535 1.022.535h3.46a.872.872 0 0 0 .877-.867V8.178a.87.87 0 0 0-.876-.867zm40.71 10.3c0 3.323-2.712 6.016-6.056 6.016-3.345 0-6.056-2.693-6.056-6.015v-.22c0-3.322 2.71-6.015 6.056-6.015 3.344 0 6.055 2.693 6.055 6.015v.22zm-6.056-10.44c-5.694 0-10.31 4.576-10.31 10.22v.22c0 5.646 4.616 10.22 10.31 10.22 5.693 0 10.308-4.574 10.308-10.22v-.22c0-5.644-4.615-10.22-10.308-10.22z" fill="#002A32"/></g></symbol><symbol id="wds-icons-flag-small" viewbox="0 0 18 18"><use fill-rule="evenodd" xlink:href="#flag-small"/></symbol><symbol id="wds-icons-checkmark-small" viewbox="0 0 18 18"><path d="M6 16a.997.997 0 0 1-.707-.293l-5-5a.999.999 0 1 1 1.414-1.414L6 13.586 16.293 3.293a.999.999 0 1 1 1.414 1.414l-11 11A.997.997 0 0 1 6 16" fill-rule="evenodd"/></symbol><symbol id="wds-icons-error-small" viewbox="0 0 18 18"><path fill-rule="evenodd" d="M11.0487656,5.33462857 C11.494971,4.88845714 12.2191405,4.88845714 12.6653459,5.33462857 C13.1115514,5.7808 13.1115514,6.50491429 12.6653459,6.95108571 L10.6171899,9.00030476 L12.6653459,11.0483048 C13.1115514,11.4956952 13.1115514,12.2185905 12.6653459,12.665981 C12.4422432,12.8878476 12.1496495,13 11.8570558,13 C11.5644621,13 11.2718683,12.8878476 11.0487656,12.665981 L8.99939043,10.6167619 L6.95123438,12.665981 C6.72813167,12.8878476 6.43431881,13 6.14294422,13 C5.8503505,13 5.55775678,12.8878476 5.33465407,12.665981 C4.88844864,12.2185905 4.88844864,11.4956952 5.33465407,11.0483048 L7.38281012,9.00030476 L5.33465407,6.95108571 C4.88844864,6.50491429 4.88844864,5.7808 5.33465407,5.33462857 C5.78085949,4.88845714 6.50380981,4.88845714 6.95123438,5.33462857 L8.99939043,7.38384762 L11.0487656,5.33462857 Z M16,11.8986667 L16,6.10026667 L11.8997333,2 L6.10026667,2 L2,6.10026667 L2,11.8986667 L6.10026667,16 L11.8997333,16 L16,11.8986667 Z M17.7077333,4.9792 C17.8944,5.16586667 18,5.4208 18,5.6864 L18,12.3136 C18,12.5792 17.8944,12.8330667 17.7077333,13.0208 L13.0208,17.7066667 C12.8330667,17.8944 12.5781333,18 12.3136,18 L5.6864,18 C5.42186667,18 5.16693333,17.8944 4.9792,17.7066667 L0.292266667,13.0208 C0.1056,12.8330667 0,12.5792 0,12.3136 L0,5.6864 C0,5.4208 0.1056,5.16586667 0.292266667,4.9792 L4.9792,0.292266667 C5.16693333,0.104533333 5.42186667,0 5.6864,0 L12.3136,0 C12.5781333,0 12.8330667,0.104533333 13.0208,0.292266667 L17.7077333,4.9792 Z"/></symbol><symbol id="wds-icons-alert-small" viewbox="0 0 18 18"><use fill-rule="evenodd" xlink:href="#alert-small"/></symbol><symbol id="wds-icons-close-tiny" viewbox="0 0 12 12"><use fill-rule="evenodd" xlink:href="#close-tiny"/></symbol><symbol id="wds-icons-info-small" viewbox="0 0 18 18"><path clip-rule="evenodd" d="M9 16C5.141 16 2 12.859 2 9C2 5.141 5.141 2 9 2C12.859 2 16 5.141 16 9C16 12.859 12.859 16 9 16M9 0C4.037 0 0 4.037 0 9C0 13.963 4.037 18 9 18C13.963 18 18 13.963 18 9C18 4.037 13.963 0 9 0"/><path clip-rule="evenodd" d="M8 12.9975V8.00982C8 7.45545 8.447 7.00735 9 7.00735 9.553 7.00735 10 7.45545 10 8.00982V12.9975C10 13.5519 9.553 14 9 14 8.447 14 8 13.5519 8 12.9975zM9.71 5.71419C9.66 5.75429 9.609 5.80541 9.55 5.83449 9.5 5.87459 9.439 5.90466 9.38 5.92471 9.319 5.95478 9.26 5.97584 9.189 5.98586 8.87 6.05603 8.52 5.94376 8.29 5.71419 8.2 5.61394 8.13 5.51369 8.08 5.38437 8.03 5.26307 8 5.13375 8 5.00243 8 4.74178 8.109 4.48214 8.29 4.29067 8.48 4.11022 8.73 3.99995 9 3.99995 9.06 3.99995 9.13 4.00998 9.189 4.02 9.26 4.03003 9.319 4.05108 9.38 4.08015 9.439 4.1002 9.5 4.13128 9.55 4.17037 9.609 4.21047 9.66 4.25057 9.71 4.29067 9.89 4.48214 10 4.74178 10 5.00243 10 5.13375 9.97 5.26307 9.92 5.38437 9.87 5.51369 9.8 5.62397 9.71 5.71419"/></symbol></svg>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70});});</script>
+	</body>
+</html>
+		
