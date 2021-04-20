@@ -10,7 +10,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Alchemist",
     "Bad against": "Ancient Apparition, Enchantress, Invoker, Kunkka, Lifestealer, Necrophos, Slardar, Slark, Ursa, Ember Spirit, Razor",
-    "Good against": "Broodmother, Natures Prophet, Phoenix, Undying, Huskar",
+    "Good against": "Broodmother, Nature's Prophet, Phoenix, Undying, Huskar",
     "Works well with": "Oracle"
   },
   {
@@ -34,7 +34,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Axe",
     "Bad against": "Doom, Jakiro, Lifestealer, Necrophos, Outworld Destroyer, Phoenix, Pugna, Shadow Demon, Spectre, Timbersaw, Ursa, Undying, Venomancer, Viper",
-    "Good against": "Abaddon, Anti-Mage, Broodmother, Chaos Knight, Dazzle, Huskar, Morphling, Natures Prophet, Phantom Assassin, Phantom Lancer, Slark, Terrorblade, Troll Warlord, Weaver",
+    "Good against": "Abaddon, Anti-Mage, Broodmother, Chaos Knight, Dazzle, Huskar, Morphling, Nature's Prophet, Phantom Assassin, Phantom Lancer, Slark, Terrorblade, Troll Warlord, Weaver",
     "Works well with": "Ancient Apparition, Dark Seer, Dazzle, Enigma, Disruptor, Magnus, Phoenix, Sand King, Skywrath Mage, Tiny, Venomancer, Witch Doctor"
   },
   {
@@ -53,19 +53,19 @@ const heroCounterListRaw = [
     "Hero": "Beastmaster",
     "Bad against": "Abaddon, Crystal Maiden, Enchantress, Earthshaker, Keeper of the Light, Oracle, Timbersaw, Winter Wyvern",
     "Good against": "Monkey King, Phoenix, Sven, Templar Assassin, Tinker, Tiny, Troll Warlord, Ursa, Wraith King",
-    "Works well with": "Lifestealer, Natures Prophet, Phantom Assassin, Spirit Breaker, Sven, Tinker, Tiny, Underlord, Ursa"
+    "Works well with": "Lifestealer, Nature's Prophet, Phantom Assassin, Spirit Breaker, Sven, Tinker, Tiny, Underlord, Ursa"
   },
   {
     "Hero": "Bloodseeker",
     "Bad against": "Abaddon, Dazzle, Ember Spirit, Faceless Void, Medusa, Morphling, Omniknight, Storm Spirit, Techies, Tinker, Troll Warlord, Underlord, Wraith King",
     "Good against": "Anti-Mage, Clinkz, Huskar, Lycan, Meepo, Mirana, Pangolier, Phoenix, Queen of Pain, Riki, Slark, Sniper, Timbersaw, Vengeful Spirit, Weaver, Windranger",
-    "Works well with": "Ancient Apparition, Batrider, Bounty Hunter, Earthshaker, Earth Spirit, Invoker, Jakiro, Magnus, Natures Prophet, Phoenix, Queen of Pain, Venomancer, Warlock, Zeus"
+    "Works well with": "Ancient Apparition, Batrider, Bounty Hunter, Earthshaker, Earth Spirit, Invoker, Jakiro, Magnus, Nature's Prophet, Phoenix, Queen of Pain, Venomancer, Warlock, Zeus"
   },
   {
     "Hero": "Bounty Hunter",
     "Bad against": "Bloodseeker, Death Prophet, Luna, Rubick, Slardar, Spectre, Spirit Breaker, Venomancer, Viper, Zeus",
     "Good against": "Sniper, Nyx Assassin, Shadow Fiend, Pudge",
-    "Works well with": "Invoker, Natures Prophet, Tinker, Spectre, Zeus"
+    "Works well with": "Invoker, Nature's Prophet, Tinker, Spectre, Zeus"
   },
   {
     "Hero": "Brewmaster",
@@ -82,7 +82,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Broodmother",
     "Bad against": "Bristleback, Dark Seer, Dragon Knight, Legion Commander, Lina, Meepo, Necrophos, Pangolier, Sand King, Sven, Tidehunter, Timbersaw, Void Spirit",
-    "Good against": "Chen, Drow Ranger, Enchantress, Medusa, Natures Prophet, Phantom Assassin, Sniper, Treant Protector",
+    "Good against": "Chen, Drow Ranger, Enchantress, Medusa, Nature's Prophet, Phantom Assassin, Sniper, Treant Protector",
     "Works well with": "Beastmaster, Dazzle, Lifestealer"
   },
   {
@@ -106,7 +106,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Clinkz",
     "Bad against": "Bloodseeker, Bounty Hunter, Doom, Enchantress, Lion, Morphling, Slardar, Spectre, Spirit Breaker, Treant Protector, Winter Wyvern, Zeus",
-    "Good against": "Anti-Mage, Ember Spirit, Huskar, Natures Prophet, Viper",
+    "Good against": "Anti-Mage, Ember Spirit, Huskar, Nature's Prophet, Viper",
     "Works well with": "Drow Ranger, Omniknight, Vengeful Spirit"
   },
   {
@@ -136,7 +136,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Dawnbreaker",
     "Bad against": "Viper, Nyx Assassin, Disruptor",
-    "Good against": "Natures Prophet",
+    "Good against": "Nature's Prophet",
     "Works well with": ""
   },
   {
@@ -148,7 +148,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Death Prophet",
     "Bad against": "Ancient Apparition, Anti-Mage, Doom, Legion Commander, Omniknight, Shadow Fiend",
-    "Good against": "Zeus, Invoker, Morphling, Timbersaw, Natures Prophet",
+    "Good against": "Zeus, Invoker, Morphling, Timbersaw, Nature's Prophet",
     "Works well with": "Enigma, Faceless Void"
   },
   {
@@ -184,7 +184,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Earthshaker",
     "Bad against": "Clockwerk, Death Prophet, Disruptor, Earth Spirit, Jakiro, Lifestealer, Necrophos, Outworld Destroyer, Puck, Razor, Skywrath Mage, Sniper, Spectre, Templar Assassin, Venomancer, Viper, Zeus",
-    "Good against": "Broodmother, Chaos Knight, Enigma, Legion Commander, Meepo, Naga Siren, Natures Prophet, Phantom Lancer, Spirit Breaker",
+    "Good against": "Broodmother, Chaos Knight, Enigma, Legion Commander, Meepo, Naga Siren, Nature's Prophet, Phantom Lancer, Spirit Breaker",
     "Works well with": "Dark Seer, Enigma, Magnus, Naga Siren, Puck, Sand King"
   },
   {
@@ -196,7 +196,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Ember Spirit",
     "Bad against": "Lion, Shadow Fiend, Silencer, Storm Spirit, Faceless Void, Omniknight, Outworld Destroyer, Nyx Assassin, Kunkka",
-    "Good against": "Bloodseeker, Meepo, Chaos Knight, Terrorblade, Crystal Maiden, Natures Prophet, Phantom Lancer",
+    "Good against": "Bloodseeker, Meepo, Chaos Knight, Terrorblade, Crystal Maiden, Nature's Prophet, Phantom Lancer",
     "Works well with": "Magnus, Keeper of the Light, Dazzle, Faceless Void"
   },
   {
@@ -233,30 +233,30 @@ const heroCounterListRaw = [
     "Hero": "Hoodwink",
     "Bad against": "Storm Spirit, Timbersaw, Treant Protector, Vengeful Spirit, Warlock, Slark, Windranger, Zeus, Techies, Clinkz, Nyx Assassin",
     "Good against": "Abaddon, Bristleback, Huskar, Lion, Monkey King, Phantom Assassin, Phantom Lancer, Morphling",
-    "Works well with": "Elder Titan, Monkey King, Natures Prophet, Windranger, Invoker, Disruptor, Pugna, Sand King"
+    "Works well with": "Elder Titan, Monkey King, Nature's Prophet, Windranger, Invoker, Disruptor, Pugna, Sand King"
   },
   {
     "Hero": "Huskar",
     "Bad against": "Abaddon, Alchemist, Ancient Apparition, Axe, Bristleback, Enchantress, Bloodseeker, Juggernaut, Lifestealer, Naga Siren, Slardar, Ursa, Viper, Windranger, Necrophos",
-    "Good against": "Weaver, Clockwerk, Dragon Knight, Earthshaker, Ember Spirit, Natures Prophet, Phoenix",
+    "Good against": "Weaver, Clockwerk, Dragon Knight, Earthshaker, Ember Spirit, Nature's Prophet, Phoenix",
     "Works well with": "Ancient Apparition, Beastmaster, Dazzle, Omniknight, Oracle, Necrophos, Pugna, Terrorblade, Witch Doctor"
   },
   {
     "Hero": "Invoker",
     "Bad against": "Anti-Mage, Broodmother, Doom, Faceless Void, Juggernaut, Kunkka, Lifestealer, Night Stalker, Nyx Assassin, Outworld Destroyer, Queen of Pain, Silencer, Storm Spirit, Templar Assassin, Viper",
     "Good against": "Huskar, Legion Commander, Medusa, Necrophos, Pugna, Tinker, Wraith King",
-    "Works well with": "Bloodseeker, Dark Seer, Disruptor, Luna, Magnus, Natures Prophet, Faceless Void, Legion Commander"
+    "Works well with": "Bloodseeker, Dark Seer, Disruptor, Luna, Magnus, Nature's Prophet, Faceless Void, Legion Commander"
   },
   {
     "Hero": "Io",
     "Bad against": "Ancient Apparition, Bloodseeker, Bristleback, Clinkz, Disruptor, Grimstroke, Legion Commander, Leshrac, Lich, Luna, Phantom Assassin, Sniper, Spirit Breaker, Treant Protector, Winter Wyvern",
-    "Good against": "Drow Ranger, Meepo, Natures Prophet, Phoenix, Pudge, Underlord",
+    "Good against": "Drow Ranger, Meepo, Nature's Prophet, Phoenix, Pudge, Underlord",
     "Works well with": "Chaos Knight, Gyrocopter, Juggernaut, Legion Commander, Lifestealer, Phantom Assassin, Spirit Breaker, Sven, Tiny, Ursa"
   },
   {
     "Hero": "Jakiro",
     "Bad against": "Anti-Mage, Clockwerk, Lifestealer, Oracle, Rubick, Silencer, Skywrath Mage",
-    "Good against": "Axe, Broodmother, Chen, Chaos Knight, Meepo, Natures Prophet, Phantom Lancer, Riki, Templar Assassin, Treant Protector",
+    "Good against": "Axe, Broodmother, Chen, Chaos Knight, Meepo, Nature's Prophet, Phantom Lancer, Riki, Templar Assassin, Treant Protector",
     "Works well with": "Dark Seer, Faceless Void, Kunkka, Magnus, Shadow Demon, Treant Protector"
   },
   {
@@ -291,7 +291,7 @@ const heroCounterListRaw = [
   },
   {
     "Hero": "Lich",
-    "Bad against": "Anti-Mage, Bloodseeker, Broodmother, Huskar, Lycan, Natures Prophet, Phantom Assassin, Queen of Pain, Weaver",
+    "Bad against": "Anti-Mage, Bloodseeker, Broodmother, Huskar, Lycan, Nature's Prophet, Phantom Assassin, Queen of Pain, Weaver",
     "Good against": "Meepo, Chaos Knight, Lone Druid",
     "Works well with": "Magnus, Warlock, Treant Protector, Witch Doctor, Faceless Void, Enigma, Axe, Grimstroke"
   },
@@ -316,7 +316,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Lone Druid",
     "Bad against": "Phantom Assassin, Bristleback, Necrophos, Grimstroke, Outworld Destroyer, Underlord, Winter Wyvern, Lich, Tinker, Death Prophet, Phoenix",
-    "Good against": "Natures Prophet, Silencer",
+    "Good against": "Nature's Prophet, Silencer",
     "Works well with": "Beastmaster, Lycan, Ogre Magi, Omniknight"
   },
   {
@@ -329,7 +329,7 @@ const heroCounterListRaw = [
     "Hero": "Lycan",
     "Bad against": "Axe, Beastmaster, Bloodseeker, Bristleback, Earthshaker, Enigma, Enchantress, Grimstroke, Kunkka, Medusa, Omniknight, Phantom Assassin, Sven, Tidehunter, Timbersaw, Winter Wyvern",
     "Good against": "Lich, Techies, Arc Warden, Drow Ranger, Ursa",
-    "Works well with": "Beastmaster, Chen, Natures Prophet"
+    "Works well with": "Beastmaster, Chen, Nature's Prophet"
   },
   {
     "Hero": "Magnus",
@@ -364,8 +364,8 @@ const heroCounterListRaw = [
   {
     "Hero": "Monkey King",
     "Bad against": "Batrider, Beastmaster, Bounty Hunter, Brewmaster, Clockwerk, Dark Willow, Disruptor, Drow Ranger, Earth Spirit, Enchantress, Enigma, Huskar, Keeper of the Light, Lina, Magnus, Mars, Pangolier, Phantom Assassin, Pudge, Queen of Pain, Slardar, Spectre, Spirit Breaker, Storm Spirit, Techies, Timbersaw, Vengeful Spirit, Venomancer, Viper, Visage, Warlock, Windranger",
-    "Good against": "Alchemist, Faceless Void, Omniknight, Meepo, Natures Prophet, Shadow Fiend, Spectre, Silencer, Timbersaw, Underlord, Skywrath Mage, Witch Doctor",
-    "Works well with": "Beastmaster, Crystal Maiden, Dark Seer, Elder Titan, Keeper of the Light, Magnus, Mars, Natures Prophet, Oracle, Puck, Treant Protector"
+    "Good against": "Alchemist, Faceless Void, Omniknight, Meepo, Nature's Prophet, Shadow Fiend, Spectre, Silencer, Timbersaw, Underlord, Skywrath Mage, Witch Doctor",
+    "Works well with": "Beastmaster, Crystal Maiden, Dark Seer, Elder Titan, Keeper of the Light, Magnus, Mars, Nature's Prophet, Oracle, Puck, Treant Protector"
   },
   {
     "Hero": "Morphling",
@@ -376,11 +376,11 @@ const heroCounterListRaw = [
   {
     "Hero": "Naga Siren",
     "Bad against": "Axe, Batrider, Earthshaker, Lion, Outworld Destroyer, Timbersaw, Zeus, Gyrocopter, Snapfire, Leshrac",
-    "Good against": "Abaddon, Omniknight, Natures Prophet, Legion Commander, Templar Assassin, Crystal Maiden, Chen, Bounty Hunter, Viper, Night Stalker, Arc Warden, Sniper, Rubick, Lone Druid",
+    "Good against": "Abaddon, Omniknight, Nature's Prophet, Legion Commander, Templar Assassin, Crystal Maiden, Chen, Bounty Hunter, Viper, Night Stalker, Arc Warden, Sniper, Rubick, Lone Druid",
     "Works well with": "Dazzle, Disruptor, Kunkka, Razor, Tidehunter"
   },
   {
-    "Hero": "Natures Prophet",
+    "Hero": "Nature's Prophet",
     "Bad against": "Batrider, Broodmother, Clockwerk, Death Prophet, Doom, Earthshaker, Elder Titan, Ember Spirit, Jakiro, Lina, Luna, Meepo, Naga Siren, Sand King, Shadow Shaman, Spectre, Spirit Breaker, Storm Spirit, Timbersaw, Tinker, Underlord, Visage",
     "Good against": "Lich, Monkey King, Techies, Treant Protector, Venomancer, Weaver",
     "Works well with": "Bloodseeker, Invoker, Lycan, Windranger, Timbersaw, Riki, Mars, Zeus"
@@ -406,7 +406,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Ogre Magi",
     "Bad against": "Chaos Knight, Doom, Lifestealer, Meepo, Phantom Lancer, Omniknight, Oracle, Slark, Viper",
-    "Good against": "Earthshaker, Io, Natures Prophet, Templar Assassin, Weaver",
+    "Good against": "Earthshaker, Io, Nature's Prophet, Templar Assassin, Weaver",
     "Works well with": "Grimstroke, Juggernaut, Shadow Fiend, Sniper, Sven, Wraith King"
   },
   {
@@ -436,7 +436,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Phantom Assassin",
     "Bad against": "Axe, Bane, Broodmother, Centaur Warrunner, Dragon Knight, Lina, Lion, Morphling, Omniknight, Phoenix, Puck, Razor, Skywrath Mage, Spectre, Timbersaw, Tinker, Troll Warlord, Viper",
-    "Good against": "Anti-Mage, Crystal Maiden, Dazzle, Natures Prophet, Riki, Sniper",
+    "Good against": "Anti-Mage, Crystal Maiden, Dazzle, Nature's Prophet, Riki, Sniper",
     "Works well with": "Ancient Apparition, Beastmaster, Magnus, Omniknight, Slardar, Vengeful Spirit"
   },
   {
@@ -496,7 +496,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Sand King",
     "Bad against": "Earth Spirit, Phoenix, Rubick, Silencer, Tidehunter, Zeus",
-    "Good against": "Broodmother, Meepo, Natures Prophet, Phantom Assassin, Slark, Templar Assassin",
+    "Good against": "Broodmother, Meepo, Nature's Prophet, Phantom Assassin, Slark, Templar Assassin",
     "Works well with": "Crystal Maiden, Keeper of the Light, Tidehunter, Tiny, Monkey King, Warlock, Earthshaker"
   },
   {
@@ -508,13 +508,13 @@ const heroCounterListRaw = [
   {
     "Hero": "Shadow Fiend",
     "Bad against": "Axe, Razor, Bane, Bounty Hunter, Disruptor, Doom, Dragon Knight, Luna, Night Stalker, Pugna, Sniper, Spirit Breaker, Tinker, Ursa, Tidehunter, Viper, Zeus",
-    "Good against": "Clockwerk, Meepo, Natures Prophet, Silencer, Slark",
+    "Good against": "Clockwerk, Meepo, Nature's Prophet, Silencer, Slark",
     "Works well with": "Bane, Clockwerk, Enigma, Legion Commander, Magnus, Slardar, Tidehunter, Vengeful Spirit"
   },
   {
     "Hero": "Shadow Shaman",
     "Bad against": "Dragon Knight, Mirana, Morphling, Riki, Wraith King, Visage",
-    "Good against": "Huskar, Natures Prophet, Spirit Breaker, Templar Assassin, Terrorblade, Weaver",
+    "Good against": "Huskar, Nature's Prophet, Spirit Breaker, Templar Assassin, Terrorblade, Weaver",
     "Works well with": "Juggernaut, Ursa, Troll Warlord, Pugna, Legion Commander, Monkey King"
   },
   {
@@ -556,13 +556,13 @@ const heroCounterListRaw = [
   {
     "Hero": "Spectre",
     "Bad against": "Anti-Mage, Doom, Juggernaut, Lion, Lycan, Meepo, Necrophos, Omniknight, Pugna, Riki, Shadow Shaman, Storm Spirit, Terrorblade, Undying, Venomancer, Viper, Winter Wyvern",
-    "Good against": "Ancient Apparition, Clinkz, Crystal Maiden, Drow Ranger, Earthshaker, Lina, Magnus, Natures Prophet, Oracle, Phantom Assassin, Rubick, Sniper, Tinker, Windranger, Zeus",
+    "Good against": "Ancient Apparition, Clinkz, Crystal Maiden, Drow Ranger, Earthshaker, Lina, Magnus, Nature's Prophet, Oracle, Phantom Assassin, Rubick, Sniper, Tinker, Windranger, Zeus",
     "Works well with": "Bloodseeker, Bounty Hunter, Chen, Clockwerk, Earthshaker, Enigma, Leshrac, Magnus, Outworld Destroyer, Treant Protector, Warlock, Pudge"
   },
   {
     "Hero": "Spirit Breaker",
     "Bad against": "Omniknight, Clockwerk, Ember Spirit, Outworld Destroyer, Enigma, Invoker, Medusa, Phoenix, Meepo, Razor, Treant Protector, Underlord, Undying",
-    "Good against": "Anti-Mage, Clinkz, Natures Prophet, Tinker",
+    "Good against": "Anti-Mage, Clinkz, Nature's Prophet, Tinker",
     "Works well with": "Bloodseeker, Bounty Hunter, Io, Lifestealer, Dark Seer, Snapfire"
   },
   {
@@ -604,14 +604,14 @@ const heroCounterListRaw = [
   {
     "Hero": "Timbersaw",
     "Bad against": "Bane, Doom, Ember Spirit, Faceless Void, Invoker, Lion, Necrophos, Outworld Destroyer, Pangolier, Pugna, Shadow Shaman, Skywrath Mage, Silencer, Storm Spirit, Viper, Zeus",
-    "Good against": "Broodmother, Axe, Chaos Knight, Meepo, Monkey King, Natures Prophet, Phantom Assassin, Phantom Lancer, Razor, Slark, Terrorblade, Treant Protector",
+    "Good against": "Broodmother, Axe, Chaos Knight, Meepo, Monkey King, Nature's Prophet, Phantom Assassin, Phantom Lancer, Razor, Slark, Terrorblade, Treant Protector",
     "Works well with": "Bounty Hunter, Crystal Maiden, Enigma, Magnus, Faceless Void"
   },
   {
     "Hero": "Tinker",
     "Bad against": "Anti-Mage, Clockwerk, Dazzle, Doom, Legion Commander, Lifestealer, Luna, Night Stalker, Nyx Assassin, Pudge, Silencer, Slark, Storm Spirit, Vengeful Spirit, Zeus, Pugna, Kunkka",
     "Good against": "Bloodseeker, Chaos Knight, Faceless Void, Shadow Fiend, Terrorblade, Timbersaw",
-    "Works well with": "Faceless Void, Kunkka, Natures Prophet, Spirit Breaker, Bloodseeker, Keeper of the Light, Bounty Hunter, Slardar"
+    "Works well with": "Faceless Void, Kunkka, Nature's Prophet, Spirit Breaker, Bloodseeker, Keeper of the Light, Bounty Hunter, Slardar"
   },
   {
     "Hero": "Tiny",
@@ -623,7 +623,7 @@ const heroCounterListRaw = [
     "Hero": "Treant Protector",
     "Bad against": "Monkey King, Phantom Lancer, Rubick, Slardar, Timbersaw",
     "Good against": "Spirit Breaker, Anti-Mage, Lycan, Storm Spirit, Drow Ranger, Phantom Assassin",
-    "Works well with": "Keeper of the Light, Crystal Maiden, Mirana, Natures Prophet, Pudge, Sven, Warlock"
+    "Works well with": "Keeper of the Light, Crystal Maiden, Mirana, Nature's Prophet, Pudge, Sven, Warlock"
   },
   {
     "Hero": "Troll Warlord",
@@ -646,7 +646,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Undying",
     "Bad against": "Alchemist, Earthshaker, Gyrocopter, Luna, Necrophos, Silencer",
-    "Good against": "Natures Prophet, Spectre, Ogre Magi, Centaur Warrunner, Winter Wyvern, Sven, Bristleback",
+    "Good against": "Nature's Prophet, Spectre, Ogre Magi, Centaur Warrunner, Winter Wyvern, Sven, Bristleback",
     "Works well with": "Broodmother, Crystal Maiden, Morphling, Naga Siren, Pugna, Warlock, Winter Wyvern, Lich, Witch Doctor"
   },
   {
@@ -676,7 +676,7 @@ const heroCounterListRaw = [
   {
     "Hero": "Visage",
     "Bad against": "Axe, Doom, Luna, Phoenix, Tidehunter, Timbersaw, Tiny, Venomancer, Viper",
-    "Good against": "Clockwerk, Natures Prophet, Puck, Pudge, Shadow Shaman, Spectre, Techies",
+    "Good against": "Clockwerk, Nature's Prophet, Puck, Pudge, Shadow Shaman, Spectre, Techies",
     "Works well with": "Slardar, Lifestealer, Beastmaster, Elder Titan"
   },
   {
@@ -701,7 +701,7 @@ const heroCounterListRaw = [
     "Hero": "Windranger",
     "Bad against": "Axe, Bloodseeker, Centaur Warrunner, Nyx Assassin, Ember Spirit, Morphling, Razor, Spectre, Sven",
     "Good against": "Earthshaker, Huskar, Hoodwink, Phantom Assassin, Pudge, Ursa",
-    "Works well with": "Natures Prophet, Hoodwink"
+    "Works well with": "Nature's Prophet, Hoodwink"
   },
   {
     "Hero": "Winter Wyvern",
