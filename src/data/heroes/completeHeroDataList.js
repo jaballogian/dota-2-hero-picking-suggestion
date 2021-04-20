@@ -1,5 +1,5 @@
-import sortedHeroDetailWithImageList from './sortedHeroDetailWithImageList'
-import heroCounterList from './heroCounterList'
+import sortedHeroDetailWithImageList from './3_heroDetailWithImageList/sortedHeroDetailWithImageList'
+import heroCounterList from './4_heroCounterList/heroCounterList'
 
 const completeHeroDataList = heroCounterList.map((item, index) => {
     // DELETE HERO PROPERTY FROM HERO COUNTER LIST ITEM

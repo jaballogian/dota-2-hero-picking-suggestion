@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import completeHeroDataList from '../data/heroes/completeHeroDataList'
-import {sortByProperty} from '../data/heroes/sortedHeroDetailList'
+import {sortByProperty} from '../data/heroes/2_heroDetailList/sortedHeroDetailList'
 import variables from '../utils/variables'
 
 const HeroListContext = React.createContext()
