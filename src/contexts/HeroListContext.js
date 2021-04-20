@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import sortedHeroDetailWithImageList from '../data/heroes/sortedHeroDetailWithImageList'
+import completeHeroDataList from '../data/heroes/completeHeroDataList'
 import {sortByProperty} from '../data/heroes/sortedHeroDetailList'
 import variables from '../utils/variables'
 
@@ -8,7 +8,7 @@ const HeroListContext = React.createContext()
 
 function HeroListContextProvider(props){
     // DEFINING CONSTANT VARIABLES
-    const [heroPoolList, setHeroPoolList] = useState(sortedHeroDetailWithImageList)
+    const [heroPoolList, setHeroPoolList] = useState(completeHeroDataList)
     const [myHeroList, setMyHeroList] = useState([])                        // MAXIMUM LENGTH IS 5
     const [opponentsHeroList, setOpponentsHeroList] = useState([])          // MAXIMUM LENGTH IS 5
     const [bannedHeroList, setBannedHeroList] = useState([])                // MAXIMUM LENGTH IS 14
