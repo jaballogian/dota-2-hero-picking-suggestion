@@ -34,7 +34,7 @@ function TeamInformation(props){
     ))
 
     const attributeTypeListView = props.data.attributeType.map((item, index) => (
-        <div style={{display: 'flex'}}>
+        <div key={index} style={{display: 'flex'}}>
             <img src={attributeTypeIconList[index]} alt='' style={{height: 30, width: 30, marginRight: 10}}/>
             <Typography variant="h6" style={{color: 'black'}}>
                 {item}
