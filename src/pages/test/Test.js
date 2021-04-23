@@ -6,6 +6,7 @@ import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
 import summarizeTeamInformation from '../../contexts/summarizeTeamInformation'
 import variables from '../../utils/variables'
 import TeamInformation from '../../components/teamInformation/TeamInformation'
+import oneOnOneComparitionsCalculation from '../../contexts/oneOnOneComparitionsCalculation'
 
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
@@ -69,6 +70,8 @@ function Test() {
 
     // console.log('my team information', myTeamInformation)
     // console.log("opponent's team information", opponentsTeamInformation)
+
+    const oneOnOneMatrix = oneOnOneComparitionsCalculation(myHeroList, opponentsHeroList)
 
     // RETURNING VIEW
     return(
