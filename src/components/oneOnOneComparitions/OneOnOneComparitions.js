@@ -1,14 +1,17 @@
 import React, {useContext} from 'react'
 
-// MATERIAL UI LIBRARIRES
-import Typography from '@material-ui/core/Typography';
-
 // CUSTOM COMPONENTS AND DATA
 import {HeroListContext} from '../../contexts/HeroListContext'
 
 function OneOnOneComparitions(props) {
     // DEFINING CONSTANT VARIABLES
     const {myHeroList, opponentsHeroList} = useContext(HeroListContext)
+
+    const myColumn = myHeroList.map((item, index) => (
+        <div key={index} style={{padding: 10, border: '1px solid black', backgroundColor: 'green'}}>
+            <img src={item.image} alt='' style={{height: 90, width: 160}}/>
+        </div>
+    ))
 
     const opponentsRow = opponentsHeroList.map((item, index) => (
         <div key={index} style={{padding: 10, border: '1px solid black', backgroundColor: 'red'}}>
@@ -36,20 +39,21 @@ function OneOnOneComparitions(props) {
     return(
         <div >
             {/* OPPONENT'S HERO LIST */}
-            <Typography 
-                variant="h6" 
-                style={{
-                    color: 'white'
-                }}
-            >
-                Opponent's Heroes
-            </Typography>
-            <div style={{display: 'flex', marginBottom: 10}}>
+            <div style={{display: 'flex', marginBottom: 10, marginLeft: 192}}>
                 {opponentsRow}
             </div>
 
-            {/* COMPARITION MATRIX */}
-            {oneOnOneMatrix}
+            <div style={{display: 'flex'}}>
+                {/* MY HERO LIST */}
+                <div style={{marginRight: 10}}>
+                    {myColumn}
+                </div>
+
+                {/* COMPARITION MATRIX */}
+                <div>
+                    {oneOnOneMatrix}
+                </div>
+            </div>
         </div>
     )
 }
