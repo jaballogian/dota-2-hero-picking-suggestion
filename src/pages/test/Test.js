@@ -3,10 +3,10 @@ import React, {useContext} from 'react'
 // CUSTOM COMPONENTS AND DATA
 import { HeroListContext } from '../../contexts/HeroListContext'
 import SingleHeroImage from '../../components/singleHeroImage/SingleHeroImage'
-import summarizeTeamInformation from '../../contexts/summarizeTeamInformation'
+import summarizeTeamInformation from '../../components/teamInformation/summarizeTeamInformation'
 import variables from '../../utils/variables'
 import TeamInformation from '../../components/teamInformation/TeamInformation'
-import oneOnOneComparitionsCalculation from '../../contexts/oneOnOneComparitionsCalculation'
+import oneOnOneComparitionsCalculation from '../../components/oneOnOneComparitions/oneOnOneComparitionsCalculation'
 import OneOnOneComparitions from '../../components/oneOnOneComparitions/OneOnOneComparitions'
 
 // MATERIAL UI LIBRARIRES
