@@ -7,6 +7,7 @@ import summarizeTeamInformation from '../../contexts/summarizeTeamInformation'
 import variables from '../../utils/variables'
 import TeamInformation from '../../components/teamInformation/TeamInformation'
 import oneOnOneComparitionsCalculation from '../../contexts/oneOnOneComparitionsCalculation'
+import OneOnOneComparitions from '../../components/oneOnOneComparitions/OneOnOneComparitions'
 
 // MATERIAL UI LIBRARIRES
 import Typography from '@material-ui/core/Typography';
@@ -130,6 +131,7 @@ function Test() {
 
             <TeamInformation data={myTeamInformation} listType={variables.myHeroList}/>
             <TeamInformation data={opponentsTeamInformation} listType={variables.opponentsHeroList}/>
+            <OneOnOneComparitions data={oneOnOneMatrix}/>
         </div>
     )
 }
